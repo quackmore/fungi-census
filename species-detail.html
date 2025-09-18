@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dettaglio Specie - Census Funghi</title>
     <link rel="stylesheet" href="css/species.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -31,15 +34,54 @@
             </div>
         </div>
 
-        <!-- Main content -->
+        <!-- Total samples count -->
+        <div class="content-block">
+            <div class="section-content">
+                <div class="total-samples" id="total-samples">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Caricamento dati in corso...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seasonality section -->
         <div class="content-block">
             <div class="section-header">
-                Informazioni e Statistiche
+                Stagionalità
             </div>
-            <div class="section-content" id="main-content">
-                <div class="loading">
-                    <div class="spinner"></div>
-                    <p>Caricamento dati in corso...</p>
+            <div class="section-content">
+                <div class="seasonality-content" id="seasonality-content">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Caricamento dati in corso...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map section -->
+        <div class="content-block">
+            <div class="section-header">
+                Distribuzione Geografica
+            </div>
+            <div class="section-content">
+                <div id="map" style="height: 500px; border-radius: 8px;"></div>
+            </div>
+        </div>
+
+        <!-- Exsiccata list -->
+        <div class="content-block">
+            <div class="section-header">
+                Campioni Exsiccata
+            </div>
+            <div class="section-content">
+                <div id="exsiccata-list">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Caricamento dati in corso...</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -49,6 +91,9 @@
     </div>
 
     <script>
+        let map;
+        let seasonalityChart;
+
         // Get URL parameters
         function getUrlParameter(name) {
             name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
@@ -59,11 +104,10 @@
 
         // Go back function
         function goBack() {
-            // Check if there's a referrer, otherwise go to a default census page
             if (document.referrer && document.referrer.includes(window.location.hostname)) {
                 window.history.back();
             } else {
-                window.location.href = 'index.html'; // or your census page URL
+                window.location.href = 'index.html';
             }
         }
 
@@ -74,12 +118,131 @@
             return filename.replace(/_+/g, '_');
         };
 
+        // Format sample details for display
+        function formatSampleDetails(sample) {
+            let details = [];
+            
+            if (sample.collectionDate) {
+                details.push(`${sample.collectionDate}`);
+            }
+            if (sample.collector) {
+                details.push(`Legit.: ${sample.collector}`);
+            }
+            if (sample.determiner) {
+                details.push(`Det.: ${sample.determiner}`);
+            }
+            if (sample.locality) {
+                details.push(`${sample.locality}`);
+            }
+            if (sample.habitat) {
+                details.push(`${sample.habitat}`);
+            }
+            if (sample.exsiccataCode) {
+                details.push(`Codice exsiccata: ${sample.exsiccataCode}`);
+            }
+            
+            return details.join(' • ');
+        }
+
+        // Initialize map
+        function initializeMap() {
+            map = L.map('map', {
+                center: [45.896178, 9.982462],
+                zoom: 12.50,
+                zoomControl: true
+            });
+
+            L.tileLayer('https://tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=dff0ad45dc8e41d4822ee38d63417f4b', {
+                attribution: 'Maps &copy; <a href="https://www.thunderforest.com">Thunderforest</a>, Data &copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+        }
+
+        // Add samples to map
+        function addSamplesToMap(samples) {
+            if (!samples || samples.length === 0) return;
+
+            const bounds = [];
+
+            samples.forEach(sample => {
+                if (sample.localityCoordinates) {
+                    const coords = sample.localityCoordinates.split(',').map(c => parseFloat(c.trim()));
+                    if (coords.length === 2 && !isNaN(coords[0]) && !isNaN(coords[1])) {
+                        const [lat, lng] = coords;
+                        
+                        const marker = L.circleMarker([lat, lng], {
+                            radius: 6,
+                            fillColor: sample.sampleType === 'exsiccata' ? '#e74c3c' : '#2c5530',
+                            color: '#fff',
+                            weight: 2,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        }).addTo(map);
+
+                        const popupContent = `
+                            <div class="sample-popup">
+                                <strong>${sample.sampleType === 'exsiccata' ? 'Exsiccata' : 'Campione raccolto'}</strong><br>
+                                ${formatSampleDetails(sample)}
+                            </div>
+                        `;
+
+                        marker.bindPopup(popupContent);
+                        bounds.push([lat, lng]);
+                    }
+                }
+            });
+
+            if (bounds.length > 0) {
+                map.fitBounds(bounds, { padding: [20, 20] });
+            }
+        }
+
+        // Create seasonality chart
+        function createSeasonalityChart(monthlyData) {
+            const ctx = document.getElementById('seasonalityChart').getContext('2d');
+            
+            const monthNames = ['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu', 'Lug', 'Ago', 'Set', 'Ott', 'Nov', 'Dic'];
+            
+            if (seasonalityChart) {
+                seasonalityChart.destroy();
+            }
+
+            seasonalityChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: monthNames,
+                    datasets: [{
+                        label: 'Campioni per mese',
+                        data: monthlyData,
+                        backgroundColor: '#2c5530',
+                        borderColor: '#1a3a1f',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                stepSize: 1
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
         // Load species data
         async function loadSpeciesData() {
             const genus = getUrlParameter('genus');
             const species = getUrlParameter('species');
             const filename = getSpeciesFilename(genus, species);
-
 
             // Update page title and header
             document.title = `${genus} ${species} - Census Funghi`;
@@ -87,7 +250,6 @@
             document.getElementById('species-name').textContent = species;
 
             try {
-                // Try to load the species data file
                 const response = await fetch(`species/${filename}`);
 
                 if (!response.ok) {
@@ -105,9 +267,7 @@
 
         // Display species data
         function displaySpeciesData(data) {
-            const mainContent = document.getElementById('main-content');
-
-            // Update authority and lineage if available
+            // Update authority and lineage
             if (data.autore) {
                 document.getElementById('species-authority').textContent = data.autore;
             }
@@ -125,75 +285,151 @@
                 document.getElementById('filogenesi').textContent = data.filogenesi;
             }
 
-            // Create statistics display
-            let contentHTML = '';
+            // Display total samples
+            displayTotalSamples(data.statistiche?.totaleCampioni || 0);
 
-            // Basic statistics
-            if (data.statistics) {
-                contentHTML += `
-                    <div class="stat-grid">
-                        <div class="stat-card">
-                            <div class="stat-value">${data.statistics.totalSamples || 0}</div>
-                            <div class="stat-label">Campioni totali</div>
+            // Display seasonality
+            displaySeasonality(data);
+
+            // Initialize and populate map
+            initializeMap();
+            
+            // Combine collected and exsiccata samples for map
+            const allSamples = [];
+            if (data.campioniRaccolti) {
+                allSamples.push(...data.campioniRaccolti.map(s => ({...s, sampleType: 'collected'})));
+            }
+            if (data.campioniExsiccata) {
+                allSamples.push(...data.campioniExsiccata.map(s => ({...s, sampleType: 'exsiccata'})));
+            }
+            addSamplesToMap(allSamples);
+
+            // Display exsiccata list
+            displayExsiccataList(data.campioniExsiccata || []);
+        }
+
+        // Display total samples count
+        function displayTotalSamples(count) {
+            const totalSamplesDiv = document.getElementById('total-samples');
+            totalSamplesDiv.innerHTML = `
+                <div class="total-count">
+                    <span class="count-number">${count}</span>
+                    <span class="count-label">campioni totali</span>
+                </div>
+            `;
+        }
+
+        // Display seasonality section
+        function displaySeasonality(data) {
+            const seasonalityContent = document.getElementById('seasonality-content');
+            
+            let html = '';
+
+            // Earliest and latest samples from fenologia
+            if (data.fenologia) {
+                if (data.fenologia.raccoltaPiuPrecoce) {
+                    html += `
+                        <div class="season-item">
+                            <h4>Raccolta più precoce</h4>
+                            <p>${data.fenologia.raccoltaPiuPrecoce}</p>
                         </div>
-                        <div class="stat-card">
-                            <div class="stat-value">${data.statistics.collectors || 0}</div>
-                            <div class="stat-label">Raccoglitori</div>
+                    `;
+                }
+
+                if (data.fenologia.raccoltaPiuTarda) {
+                    html += `
+                        <div class="season-item">
+                            <h4>Raccolta più tardiva</h4>
+                            <p>${data.fenologia.raccoltaPiuTarda}</p>
                         </div>
-                        <div class="stat-card">
-                            <div class="stat-value">${data.statistics.localities || 0}</div>
-                            <div class="stat-label">Località</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-value">${data.statistics.yearSpan || 'N/A'}</div>
-                            <div class="stat-label">Arco temporale</div>
+                    `;
+                }
+            }
+
+            // Chart container
+            html += `
+                <div class="chart-container">
+                    <h4>Distribuzione mensile</h4>
+                    <div style="height: 300px; position: relative;">
+                        <canvas id="seasonalityChart"></canvas>
+                    </div>
+                </div>
+            `;
+
+            seasonalityContent.innerHTML = html;
+
+            // Create chart if data available
+            if (data.fenologia?.campioniPerMese) {
+                setTimeout(() => {
+                    // Convert monthly data from object format to array
+                    const monthlyArray = data.fenologia.campioniPerMese.map(monthObj => {
+                        const monthKey = Object.keys(monthObj)[0];
+                        return monthObj[monthKey];
+                    });
+                    createSeasonalityChart(monthlyArray);
+                }, 100);
+            }
+        }
+
+        // Display exsiccata list
+        function displayExsiccataList(exsiccataList) {
+            const exsiccataListDiv = document.getElementById('exsiccata-list');
+            
+            if (!exsiccataList || exsiccataList.length === 0) {
+                exsiccataListDiv.innerHTML = '<p>Nessun campione exsiccata disponibile.</p>';
+                return;
+            }
+
+            let html = '<div class="exsiccata-items">';
+            
+            exsiccataList.forEach((sample, index) => {
+                html += `
+                    <div class="exsiccata-item">
+                        <div class="exsiccata-number">${index + 1}</div>
+                        <div class="exsiccata-details">
+                            ${formatSampleDetails(sample)}
                         </div>
                     </div>
                 `;
-            }
+            });
 
-            // Add more detailed information sections here
-            if (data.distribution) {
-                contentHTML += `
-                    <h3 style="margin-top: 30px; margin-bottom: 15px; color: #2c5530;">Distribuzione Geografica</h3>
-                    <p>${data.distribution}</p>
-                `;
-            }
-
-            if (data.habitat) {
-                contentHTML += `
-                    <h3 style="margin-top: 30px; margin-bottom: 15px; color: #2c5530;">Habitat</h3>
-                    <p>${data.habitat}</p>
-                `;
-            }
-
-            if (data.notes) {
-                contentHTML += `
-                    <h3 style="margin-top: 30px; margin-bottom: 15px; color: #2c5530;">Note</h3>
-                    <p>${data.notes}</p>
-                `;
-            }
-
-            mainContent.innerHTML = contentHTML;
+            html += '</div>';
+            exsiccataListDiv.innerHTML = html;
         }
 
         // Display error message
         function displayError(message) {
-            const mainContent = document.getElementById('main-content');
-            mainContent.innerHTML = `
-                <div class="error-message">
-                    <strong>Errore nel caricamento dei dati:</strong><br>
-                    ${message}
-                </div>
-                <p>Il file dei dati per questa specie non è ancora disponibile o non è stato generato.</p>
-            `;
+            const elements = [
+                document.getElementById('total-samples'),
+                document.getElementById('seasonality-content'),
+                document.getElementById('exsiccata-list')
+            ];
+
+            elements.forEach(element => {
+                if (element) {
+                    element.innerHTML = `
+                        <div class="error-message">
+                            <strong>Errore nel caricamento dei dati:</strong><br>
+                            ${message}
+                        </div>
+                    `;
+                }
+            });
         }
 
         // Initialize page when DOM is loaded
         document.addEventListener('DOMContentLoaded', function () {
             loadSpeciesData();
         });
+
+        // Cleanup on page unload
+        window.addEventListener('beforeunload', function() {
+            if (seasonalityChart) {
+                seasonalityChart.destroy();
+            }
+        });
     </script>
+
 </body>
 
 </html>

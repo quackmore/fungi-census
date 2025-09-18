@@ -179,6 +179,127 @@ body {
     text-align: center;
 }
 
+.total-count {
+    text-align: center;
+    padding: 20px;
+}
+
+.count-number {
+    display: block;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #2c5530;
+    line-height: 1;
+}
+
+.count-label {
+    font-size: 1.1em;
+    color: #6c757d;
+}
+
+.season-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border-left: 4px solid #2c5530;
+}
+
+.season-item h4 {
+    color: #2c5530;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+.season-item p {
+    color: #495057;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.chart-container {
+    margin-top: 30px;
+}
+
+.chart-container h4 {
+    color: #2c5530;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.exsiccata-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.exsiccata-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: 1px solid #e9ecef;
+}
+
+.exsiccata-number {
+    background-color: #2c5530;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.9em;
+    flex-shrink: 0;
+}
+
+.exsiccata-details {
+    flex: 1;
+    color: #495057;
+    line-height: 1.4;
+}
+
+.sample-popup {
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.sample-popup strong {
+    color: #2c5530;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    padding: 15px;
+    color: #721c24;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .count-number {
+        font-size: 2.5em;
+    }
+
+    #map {
+        height: 350px;
+    }
+
+    .exsiccata-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .exsiccata-number {
+        align-self: center;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 15px;
