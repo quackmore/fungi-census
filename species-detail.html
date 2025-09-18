@@ -121,15 +121,9 @@
         // Format sample details for display
         function formatSampleDetails(sample) {
             let details = [];
-            
+
             if (sample.collectionDate) {
                 details.push(`${sample.collectionDate}`);
-            }
-            if (sample.collector) {
-                details.push(`Legit.: ${sample.collector}`);
-            }
-            if (sample.determiner) {
-                details.push(`Det.: ${sample.determiner}`);
             }
             if (sample.locality) {
                 details.push(`${sample.locality}`);
@@ -137,10 +131,16 @@
             if (sample.habitat) {
                 details.push(`${sample.habitat}`);
             }
+            if (sample.collector) {
+                details.push(`Legit.: ${sample.collector}`);
+            }
+            if (sample.determiner) {
+                details.push(`Det.: ${sample.determiner}`);
+            }
             if (sample.exsiccataCode) {
                 details.push(`Codice exsiccata: ${sample.exsiccataCode}`);
             }
-            
+
             return details.join(' • ');
         }
 
@@ -168,7 +168,7 @@
                     const coords = sample.localityCoordinates.split(',').map(c => parseFloat(c.trim()));
                     if (coords.length === 2 && !isNaN(coords[0]) && !isNaN(coords[1])) {
                         const [lat, lng] = coords;
-                        
+
                         const marker = L.circleMarker([lat, lng], {
                             radius: 6,
                             fillColor: sample.sampleType === 'exsiccata' ? '#e74c3c' : '#2c5530',
@@ -180,7 +180,6 @@
 
                         const popupContent = `
                             <div class="sample-popup">
-                                <strong>${sample.sampleType === 'exsiccata' ? 'Exsiccata' : 'Campione raccolto'}</strong><br>
                                 ${formatSampleDetails(sample)}
                             </div>
                         `;
@@ -199,9 +198,9 @@
         // Create seasonality chart
         function createSeasonalityChart(monthlyData) {
             const ctx = document.getElementById('seasonalityChart').getContext('2d');
-            
+
             const monthNames = ['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu', 'Lug', 'Ago', 'Set', 'Ott', 'Nov', 'Dic'];
-            
+
             if (seasonalityChart) {
                 seasonalityChart.destroy();
             }
@@ -293,14 +292,14 @@
 
             // Initialize and populate map
             initializeMap();
-            
+
             // Combine collected and exsiccata samples for map
             const allSamples = [];
             if (data.campioniRaccolti) {
-                allSamples.push(...data.campioniRaccolti.map(s => ({...s, sampleType: 'collected'})));
+                allSamples.push(...data.campioniRaccolti.map(s => ({ ...s, sampleType: 'collected' })));
             }
             if (data.campioniExsiccata) {
-                allSamples.push(...data.campioniExsiccata.map(s => ({...s, sampleType: 'exsiccata'})));
+                allSamples.push(...data.campioniExsiccata.map(s => ({ ...s, sampleType: 'exsiccata' })));
             }
             addSamplesToMap(allSamples);
 
@@ -312,49 +311,57 @@
         function displayTotalSamples(count) {
             const totalSamplesDiv = document.getElementById('total-samples');
             totalSamplesDiv.innerHTML = `
-                <div class="total-count">
+                <div>
                     <span class="count-number">${count}</span>
-                    <span class="count-label">campioni totali</span>
+                    <span class="count-label">campioni</span>
                 </div>
             `;
         }
 
         // Display seasonality section
+        // Display seasonality section
         function displaySeasonality(data) {
             const seasonalityContent = document.getElementById('seasonality-content');
-            
-            let html = '';
+
+            let html = '<div class="seasonality-grid">';
+
+            // Container for earliest and latest items
+            html += '<div class="season-info-container">';
 
             // Earliest and latest samples from fenologia
             if (data.fenologia) {
                 if (data.fenologia.raccoltaPiuPrecoce) {
                     html += `
-                        <div class="season-item">
-                            <h4>Raccolta più precoce</h4>
-                            <p>${data.fenologia.raccoltaPiuPrecoce}</p>
-                        </div>
-                    `;
+                <div class="season-item">
+                    <h4>Raccolta più precoce</h4>
+                    <p>${data.fenologia.raccoltaPiuPrecoce}</p>
+                </div>
+            `;
                 }
 
                 if (data.fenologia.raccoltaPiuTarda) {
                     html += `
-                        <div class="season-item">
-                            <h4>Raccolta più tardiva</h4>
-                            <p>${data.fenologia.raccoltaPiuTarda}</p>
-                        </div>
-                    `;
+                <div class="season-item">
+                    <h4>Raccolta più tardiva</h4>
+                    <p>${data.fenologia.raccoltaPiuTarda}</p>
+                </div>
+            `;
                 }
             }
 
+            html += '</div>'; // Close season-info-container
+
             // Chart container
             html += `
-                <div class="chart-container">
-                    <h4>Distribuzione mensile</h4>
-                    <div style="height: 300px; position: relative;">
-                        <canvas id="seasonalityChart"></canvas>
-                    </div>
-                </div>
-            `;
+                        <div class="chart-container">
+                            <h4>Distribuzione mensile</h4>
+                            <div>
+                                <canvas id="seasonalityChart"></canvas>
+                            </div>
+                        </div>
+                    `;
+
+            html += '</div>'; // Close seasonality-grid
 
             seasonalityContent.innerHTML = html;
 
@@ -374,14 +381,14 @@
         // Display exsiccata list
         function displayExsiccataList(exsiccataList) {
             const exsiccataListDiv = document.getElementById('exsiccata-list');
-            
+
             if (!exsiccataList || exsiccataList.length === 0) {
                 exsiccataListDiv.innerHTML = '<p>Nessun campione exsiccata disponibile.</p>';
                 return;
             }
 
             let html = '<div class="exsiccata-items">';
-            
+
             exsiccataList.forEach((sample, index) => {
                 html += `
                     <div class="exsiccata-item">
@@ -423,7 +430,7 @@
         });
 
         // Cleanup on page unload
-        window.addEventListener('beforeunload', function() {
+        window.addEventListener('beforeunload', function () {
             if (seasonalityChart) {
                 seasonalityChart.destroy();
             }

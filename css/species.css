@@ -179,17 +179,10 @@ body {
     text-align: center;
 }
 
-.total-count {
-    text-align: center;
-    padding: 20px;
-}
-
 .count-number {
-    display: block;
     font-size: 1.5em;
     font-weight: 700;
     color: #2c5530;
-    line-height: 1;
 }
 
 .count-label {
@@ -205,6 +198,24 @@ body {
     border-left: 4px solid #2c5530;
 }
 
+.seasonality-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.seasonality-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.season-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .season-item h4 {
     color: #2c5530;
     margin-bottom: 8px;
@@ -218,7 +229,12 @@ body {
 }
 
 .chart-container {
-    margin-top: 30px;
+    margin-top: 0;
+}
+
+.chart-container>div {
+    height: 300px;
+    position: relative;
 }
 
 .chart-container h4 {
@@ -282,10 +298,6 @@ body {
 }
 
 @media (max-width: 768px) {
-    .count-number {
-        font-size: 2.5em;
-    }
-
     #map {
         height: 350px;
     }
@@ -298,9 +310,11 @@ body {
     .exsiccata-number {
         align-self: center;
     }
-}
 
-@media (max-width: 768px) {
+    .chart-container>div {
+        height: 250px;
+    }
+
     .container {
         padding: 15px;
     }
@@ -315,5 +329,28 @@ body {
 
     .stat-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 769px) {
+    .seasonality-grid {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .season-info-container {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .chart-container {
+        flex: 1;
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chart-container>div {
+        flex: 1;
     }
 }
