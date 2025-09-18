@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-09-16T13:18:19.981Z",
-  "totalSpecies": 305,
+  "generatedAt": "2025-09-18T13:29:18.854Z",
+  "totalSpecies": 316,
   "species": [
     {
       "genus": "Abortiporus",
@@ -479,6 +479,15 @@
     },
     {
       "genus": "Clitocybe",
+      "species": "maxima",
+      "fullName": "Clitocybe maxima",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "authority": "(P. Gaertn., B. Mey. & Scherb.) P. Kumm. 1871",
+      "currentName": "Infundibulicybe gibba",
+      "currentAuthority": "(Pers.) Harmaja 2003"
+    },
+    {
+      "genus": "Clitocybe",
       "species": "nebularis",
       "fullName": "Clitocybe nebularis",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Clitocybaceae",
@@ -549,6 +558,15 @@
       "fullName": "Conocybe tenera",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Bolbitiaceae",
       "authority": "(Schaeff.) Kühner 1935"
+    },
+    {
+      "genus": "Coprinus",
+      "species": "atramentarius",
+      "fullName": "Coprinus atramentarius",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Psathyrellaceae",
+      "authority": "(Bull.) Fr. 1838",
+      "currentName": "Coprinopsis atramentaria",
+      "currentAuthority": "(Bull.) Redhead, Vilgalys & Moncalvo 2001"
     },
     {
       "genus": "Coprinus",
@@ -1060,6 +1078,15 @@
     },
     {
       "genus": "Inocybe",
+      "species": "fastigiata",
+      "fullName": "Inocybe fastigiata",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
+      "authority": "(Schaeff.) Kalchbr. 1867",
+      "currentName": "Pseudosperma rimosum",
+      "currentAuthority": "(Bull.) Matheny & Esteve-Rav. 2019"
+    },
+    {
+      "genus": "Inocybe",
       "species": "fibrosa",
       "fullName": "Inocybe fibrosa",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
@@ -1099,6 +1126,13 @@
       "fullName": "Lactarius blennius",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
       "authority": "(Fr.) Fr. 1838"
+    },
+    {
+      "genus": "Lactarius",
+      "species": "deliciosus",
+      "fullName": "Lactarius deliciosus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+      "authority": "(L.) Gray 1821"
     },
     {
       "genus": "Lactarius",
@@ -1229,6 +1263,13 @@
     },
     {
       "genus": "Leccinum",
+      "species": "aurantiacum",
+      "fullName": "Leccinum aurantiacum",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
+      "authority": "(Bull.) Gray 1821"
+    },
+    {
+      "genus": "Leccinum",
       "species": "carpini",
       "fullName": "Leccinum carpini",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
@@ -1307,6 +1348,15 @@
     },
     {
       "genus": "Lepista",
+      "species": "inversa",
+      "fullName": "Lepista inversa",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "authority": "(Scop.) Pat. 1887",
+      "currentName": "Paralepista flaccida",
+      "currentAuthority": "(Sowerby) Vizzini 2012"
+    },
+    {
+      "genus": "Lepista",
       "species": "irina",
       "fullName": "Lepista irina",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Clitocybaceae",
@@ -1336,6 +1386,15 @@
       "fullName": "Lepista ricekii",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
       "authority": "Bon 1983"
+    },
+    {
+      "genus": "Lepista",
+      "species": "sordida",
+      "fullName": "Lepista sordida",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Clitocybaceae",
+      "authority": "(Schumach.) Singer 1951",
+      "currentName": "Collybia sordida",
+      "currentAuthority": "(Schumach.) Z.M. He & Zhu L. Yang 2023"
     },
     {
       "genus": "Limacella",
@@ -1541,6 +1600,13 @@
       "fullName": "Mycena pura",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
       "authority": "(Pers.) P. Kumm. 1871"
+    },
+    {
+      "genus": "Mycena",
+      "species": "rosea",
+      "fullName": "Mycena rosea",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
+      "authority": "Gramberg 1912"
     },
     {
       "genus": "Oudemansiella",
@@ -2143,6 +2209,13 @@
     },
     {
       "genus": "Suillus",
+      "species": "luteus",
+      "fullName": "Suillus luteus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
+      "authority": "(L.) Roussel 1796"
+    },
+    {
+      "genus": "Suillus",
       "species": "placidus",
       "fullName": "Suillus placidus",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Suillaceae",
@@ -2161,6 +2234,13 @@
       "fullName": "Tarzetta cupularis",
       "lineage": "regno: Fungi > pylum: Ascomycota > classe: Pezizomycetes > famiglia: Tarzettaceae",
       "authority": "(L.) Lambotte 1887"
+    },
+    {
+      "genus": "Thelephora",
+      "species": "palmata",
+      "fullName": "Thelephora palmata",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Thelephorales > famiglia: Thelephoraceae",
+      "authority": "(Scop.) Fr. 1821"
     },
     {
       "genus": "Trametes",
@@ -2297,6 +2377,13 @@
       "authority": "(Fr.) Quél. 1888",
       "currentName": "Xerocomellus pruinatus",
       "currentAuthority": "(Fr.) Šutara 2008"
+    },
+    {
+      "genus": "Xerocomus",
+      "species": "subtomentosus",
+      "fullName": "Xerocomus subtomentosus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
+      "authority": "(L.) Quél. 1887"
     },
     {
       "genus": "Xylaria",
