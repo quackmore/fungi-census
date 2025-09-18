@@ -15,15 +15,24 @@
 
         <!-- Species header -->
         <div class="species-header">
-            <div class="species-title">
-                <em id="genus-name"></em> <em id="species-name"></em>
+            <div>
+                <span class="species-title"> <em id="genus-name"></em> <em id="species-name"></em> </span>
+                <span class="species-authority" id="species-authority"></span>
             </div>
-            <div class="species-authority" id="species-authority"></div>
-            <div class="species-lineage" id="species-lineage"></div>
+            <div class="species-details" id="species-details">
+                <div>
+                    <span class="species-authority" id="synonym"></span>
+                    <span class="species-title"> <em id="nomeCorrente"></em></span>
+                    <span class="species-authority" id="autoreCorrente"></span>
+                </div>
+                <div>
+                    <span class="species-authority" id="filogenesi"></span>
+                </div>
+            </div>
         </div>
 
         <!-- Main content -->
-        <div class="content-section">
+        <div class="content-block">
             <div class="section-header">
                 Informazioni e Statistiche
             </div>
@@ -99,12 +108,21 @@
             const mainContent = document.getElementById('main-content');
 
             // Update authority and lineage if available
-            //if (data.authority) {
-                document.getElementById('species-authority').textContent = "data.authority";
-            //}
+            if (data.autore) {
+                document.getElementById('species-authority').textContent = data.autore;
+            }
+
+            if (data.nomeCorrente) {
+                document.getElementById('synonym').textContent = 'sinonimo di ';
+                document.getElementById('nomeCorrente').textContent = data.nomeCorrente;
+            }
+
+            if (data.autoreCorrente) {
+                document.getElementById('autoreCorrente').textContent = data.autoreCorrente;
+            }
 
             if (data.filogenesi) {
-                document.getElementById('species-lineage').textContent = data.filogenesi;
+                document.getElementById('filogenesi').textContent = data.filogenesi;
             }
 
             // Create statistics display

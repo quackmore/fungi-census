@@ -70,7 +70,7 @@ body {
 }
 
 .species-title {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #2c5530;
     margin-bottom: 10px;
 }
@@ -85,14 +85,14 @@ body {
     margin-bottom: 15px;
 }
 
-.species-lineage {
+.species-details {
     background-color: #f8f9fa;
     padding: 15px;
     border-radius: 5px;
     border-left: 4px solid #2c5530;
 }
 
-.content-section {
+.content-block {
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
