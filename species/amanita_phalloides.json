@@ -1,0 +1,97 @@
+{
+  "nomeCompleto": "Amanita phalloides",
+  "autore": null,
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Amanitaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-09-18",
+      "collector": "Pierino Bigoni",
+      "locality": "Roccolo Sparpaì, Piario",
+      "localityCoordinates": "45.882983, 9.918480",
+      "habitat": "Pino silvestre noccioli e abeti",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-05",
+      "collector": "Pietro Centenari",
+      "locality": "Vilmaggiore, Vilminore di Scalve",
+      "localityCoordinates": "46.004013, 10.109599",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-04",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Faggeta",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-07-03",
+      "collector": "Fabio Locatelli",
+      "locality": "Prat del sul, Clusone",
+      "localityCoordinates": "45.867941, 9.932321",
+      "habitat": "Bosco latifoglie",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-06-18",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.909548, 9.973256",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "18/06",
+    "raccoltaPiuTarda": "18/09",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 1
+      },
+      {
+        "lug": 1
+      },
+      {
+        "ago": 2
+      },
+      {
+        "set": 1
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
+    "campioniExsiccata": 0
+  }
+}

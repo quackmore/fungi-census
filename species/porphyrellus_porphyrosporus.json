@@ -1,0 +1,81 @@
+{
+  "nomeCompleto": "Porphyrellus porphyrosporus",
+  "autore": null,
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-09-15",
+      "collector": "Juri Imberti",
+      "locality": "Monte Pora, Castione della Presolana",
+      "localityCoordinates": "45.901836, 10.076351",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-05",
+      "collector": "Fabio Locatelli",
+      "locality": "Azzone",
+      "localityCoordinates": "45.978518, 10.112647",
+      "habitat": "Abete rosso",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-07-18",
+      "collector": "Antonio Guana",
+      "locality": "Ave, Ardesio",
+      "localityCoordinates": "45.945285, 9.963584",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "18/07",
+    "raccoltaPiuTarda": "15/09",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 1
+      },
+      {
+        "ago": 1
+      },
+      {
+        "set": 1
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
+    "campioniExsiccata": 0
+  }
+}

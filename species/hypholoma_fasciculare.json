@@ -1,0 +1,89 @@
+{
+  "nomeCompleto": "Hypholoma fasciculare",
+  "autore": null,
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-08-31",
+      "collector": "Maria Angela Maffeis",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-26",
+      "collector": "Pierino Bigoni",
+      "locality": "Strada per le baite del Moschel, Oltressenda Alta",
+      "localityCoordinates": "45.93408, 10.00331",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-06-28",
+      "collector": "Fabio Locatelli",
+      "locality": "Sentiero per il rifugio Coca, Valbondione",
+      "localityCoordinates": "46.050309, 10.013158",
+      "habitat": "Faggio",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-05-25",
+      "collector": "Pietro Centenari",
+      "locality": "Sentiero 'del Bot', Rovetta",
+      "localityCoordinates": "45.903819, 9.981142",
+      "habitat": "Bosco misto abete e pino",
+      "determiner": "Pietro Centenari"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "25/05",
+    "raccoltaPiuTarda": "31/08",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 1
+      },
+      {
+        "giu": 1
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 2
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
+    "campioniExsiccata": 0
+  }
+}

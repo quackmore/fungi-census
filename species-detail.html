@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dettaglio Specie - Census Funghi</title>
+    <link rel="stylesheet" href="css/species.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Top back button -->
+        <button class="back-button" onclick="goBack()">Torna alla pagina di ricerca</button>
+
+        <!-- Species header -->
+        <div class="species-header">
+            <div class="species-title">
+                <em id="genus-name"></em> <em id="species-name"></em>
+            </div>
+            <div class="species-authority" id="species-authority"></div>
+            <div class="species-lineage" id="species-lineage"></div>
+        </div>
+
+        <!-- Main content -->
+        <div class="content-section">
+            <div class="section-header">
+                Informazioni e Statistiche
+            </div>
+            <div class="section-content" id="main-content">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Caricamento dati in corso...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom back button -->
+        <button class="back-button" onclick="goBack()">Torna alla pagina di ricerca</button>
+    </div>
+
+    <script>
+        // Get URL parameters
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            const regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            const results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Go back function
+        function goBack() {
+            // Check if there's a referrer, otherwise go to a default census page
+            if (document.referrer && document.referrer.includes(window.location.hostname)) {
+                window.history.back();
+            } else {
+                window.location.href = 'index.html'; // or your census page URL
+            }
+        }
+
+        const getSpeciesFilename = (genus, species) => {
+            const cleanGenus = genus.toLowerCase().replace(/[\s.]/g, '_');
+            const cleanSpecies = species.toLowerCase().replace(/[\s.]/g, '_');
+            const filename = `${cleanGenus}_${cleanSpecies}.json`;
+            return filename.replace(/_+/g, '_');
+        };
+
+        // Load species data
+        async function loadSpeciesData() {
+            const genus = getUrlParameter('genus');
+            const species = getUrlParameter('species');
+            const filename = getSpeciesFilename(genus, species);
+
+
+            // Update page title and header
+            document.title = `${genus} ${species} - Census Funghi`;
+            document.getElementById('genus-name').textContent = genus;
+            document.getElementById('species-name').textContent = species;
+
+            try {
+                // Try to load the species data file
+                const response = await fetch(`species/${filename}`);
+
+                if (!response.ok) {
+                    throw new Error(`File non trovato: ${filename}`);
+                }
+
+                const data = await response.json();
+                displaySpeciesData(data);
+
+            } catch (error) {
+                console.error('Error loading species data:', error);
+                displayError(error.message);
+            }
+        }
+
+        // Display species data
+        function displaySpeciesData(data) {
+            const mainContent = document.getElementById('main-content');
+
+            // Update authority and lineage if available
+            //if (data.authority) {
+                document.getElementById('species-authority').textContent = "data.authority";
+            //}
+
+            if (data.filogenesi) {
+                document.getElementById('species-lineage').textContent = data.filogenesi;
+            }
+
+            // Create statistics display
+            let contentHTML = '';
+
+            // Basic statistics
+            if (data.statistics) {
+                contentHTML += `
+                    <div class="stat-grid">
+                        <div class="stat-card">
+                            <div class="stat-value">${data.statistics.totalSamples || 0}</div>
+                            <div class="stat-label">Campioni totali</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">${data.statistics.collectors || 0}</div>
+                            <div class="stat-label">Raccoglitori</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">${data.statistics.localities || 0}</div>
+                            <div class="stat-label">Località</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">${data.statistics.yearSpan || 'N/A'}</div>
+                            <div class="stat-label">Arco temporale</div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Add more detailed information sections here
+            if (data.distribution) {
+                contentHTML += `
+                    <h3 style="margin-top: 30px; margin-bottom: 15px; color: #2c5530;">Distribuzione Geografica</h3>
+                    <p>${data.distribution}</p>
+                `;
+            }
+
+            if (data.habitat) {
+                contentHTML += `
+                    <h3 style="margin-top: 30px; margin-bottom: 15px; color: #2c5530;">Habitat</h3>
+                    <p>${data.habitat}</p>
+                `;
+            }
+
+            if (data.notes) {
+                contentHTML += `
+                    <h3 style="margin-top: 30px; margin-bottom: 15px; color: #2c5530;">Note</h3>
+                    <p>${data.notes}</p>
+                `;
+            }
+
+            mainContent.innerHTML = contentHTML;
+        }
+
+        // Display error message
+        function displayError(message) {
+            const mainContent = document.getElementById('main-content');
+            mainContent.innerHTML = `
+                <div class="error-message">
+                    <strong>Errore nel caricamento dei dati:</strong><br>
+                    ${message}
+                </div>
+                <p>Il file dei dati per questa specie non è ancora disponibile o non è stato generato.</p>
+            `;
+        }
+
+        // Initialize page when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            loadSpeciesData();
+        });
+    </script>
+</body>
+
+</html>
