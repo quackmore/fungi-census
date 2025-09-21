@@ -204,8 +204,12 @@ function handleTaxonClick(taxonValue) {
 }
 
 function handleSpeciesClick(genus, species) {
+    parent.postMessage({
+        type: 'navigate',
+        page: `fungi-census/species-detail.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}`
+    }, '*');
     // Navigate to species detail page with parameters
-    window.location.href = `species-detail.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}`;
+    // window.location.href = `species-detail.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}`;
 }
 
 // Switch between tabs
@@ -278,6 +282,12 @@ function updateResults() {
     }).join('');
 
     speciesList.innerHTML = html;
+
+    // communicate the final height of the page to the parent 
+    window.parent.postMessage({
+        type: 'contentLoaded',
+        height: document.body.scrollHeight
+    }, '*');
 }
 
 // Update total count display
