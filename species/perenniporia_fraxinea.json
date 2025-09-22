@@ -1,24 +1,23 @@
 {
-  "nomeCompleto": "Helvella crispa",
-  "autore": "(Scop.) Fr. 1822",
-  "filogenesi": "regno: Fungi > pylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Helvellaceae",
-  "nomeCorrente": null,
-  "autoreCorrente": null,
-  "campioniRaccolti": [],
-  "campioniExsiccata": [
+  "nomeCompleto": "Perenniporia fraxinea",
+  "autore": "(Bull.) Ryvarden 1978",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+  "nomeCorrente": "Vanderbylia fraxinea",
+  "autoreCorrente": "(Bull.) D.A. Reid 1973",
+  "campioniRaccolti": [
     {
-      "collectionDate": "2024-11-01",
+      "collectionDate": "2025-09-18",
       "collector": "Pierino Bigoni",
       "locality": "Pineta della Selva, Clusone",
       "localityCoordinates": "45.882983, 9.918480",
-      "habitat": "Bosco misto abete e pino silvestre",
-      "determiner": "Pierino Bigoni",
-      "exsiccataCode": ""
+      "habitat": "Ceppaia di latifoglie",
+      "determiner": "Pierino Bigoni"
     }
   ],
+  "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "01/11",
-    "raccoltaPiuTarda": "01/11",
+    "raccoltaPiuPrecoce": "18/09",
+    "raccoltaPiuTarda": "18/09",
     "campioniPerMese": [
       {
         "gen": 0
@@ -45,13 +44,13 @@
         "ago": 0
       },
       {
-        "set": 0
+        "set": 1
       },
       {
         "ott": 0
       },
       {
-        "nov": 1
+        "nov": 0
       },
       {
         "dic": 0
@@ -60,7 +59,7 @@
   },
   "statistiche": {
     "totaleCampioni": 1,
-    "campioniRaccolti": 0,
-    "campioniExsiccata": 1
+    "campioniRaccolti": 1,
+    "campioniExsiccata": 0
   }
 }

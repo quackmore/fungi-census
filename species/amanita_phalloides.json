@@ -6,6 +6,22 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-09-21",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.882983, 9.918480",
+      "habitat": "Misto latifoglie con pino e abete",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-20",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.882983, 9.918480",
+      "habitat": "Nocciolo, pino e abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-09-18",
       "collector": "Pierino Bigoni",
       "locality": "Roccolo Sparpaì, Piario",
@@ -49,7 +65,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "18/06",
-    "raccoltaPiuTarda": "18/09",
+    "raccoltaPiuTarda": "21/09",
     "campioniPerMese": [
       {
         "gen": 0
@@ -76,7 +92,7 @@
         "ago": 2
       },
       {
-        "set": 1
+        "set": 3
       },
       {
         "ott": 0
@@ -90,8 +106,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 5,
-    "campioniRaccolti": 5,
+    "totaleCampioni": 7,
+    "campioniRaccolti": 7,
     "campioniExsiccata": 0
   }
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-09-18T13:49:48.873Z",
-  "totalSpecies": 316,
+  "generatedAt": "2025-09-22T07:35:34.274Z",
+  "totalSpecies": 320,
   "species": [
     {
       "genus": "Abortiporus",
@@ -586,6 +586,15 @@
     },
     {
       "genus": "Coprinus",
+      "species": "lagopus",
+      "fullName": "Coprinus lagopus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Psathyrellaceae",
+      "authority": "(Fr.) Fr. 1838",
+      "currentName": "Coprinopsis lagopus",
+      "currentAuthority": "(Fr.) Redhead, Vilgalys & Moncalvo 2001"
+    },
+    {
+      "genus": "Coprinus",
       "species": "micaceus",
       "fullName": "Coprinus micaceus",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Psathyrellaceae",
@@ -665,6 +674,13 @@
       "authority": "Britzelm. 1885",
       "currentName": "Calonarius odorifer",
       "currentAuthority": "(Britzelm.) Niskanen & Liimat. 2022"
+    },
+    {
+      "genus": "Cortinarius",
+      "species": "orellanus",
+      "fullName": "Cortinarius orellanus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
+      "authority": "Fr. 1838"
     },
     {
       "genus": "Cortinarius",
@@ -1657,6 +1673,15 @@
       "authority": "P.D. Orton 1969"
     },
     {
+      "genus": "Perenniporia",
+      "species": "fraxinea",
+      "fullName": "Perenniporia fraxinea",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+      "authority": "(Bull.) Ryvarden 1978",
+      "currentName": "Vanderbylia fraxinea",
+      "currentAuthority": "(Bull.) D.A. Reid 1973"
+    },
+    {
       "genus": "Phaeoclavulina",
       "species": "abietina",
       "fullName": "Phaeoclavulina abietina",
@@ -2257,6 +2282,13 @@
       "authority": "(DC.) Donk 1958",
       "currentName": "Guepinia helvelloides",
       "currentAuthority": "(DC.) Fr. 1828"
+    },
+    {
+      "genus": "Tricholoma",
+      "species": "aurantium",
+      "fullName": "Tricholoma aurantium",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
+      "authority": "(Schaeff.) Ricken 1914"
     },
     {
       "genus": "Tricholoma",

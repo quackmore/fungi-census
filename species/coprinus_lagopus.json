@@ -1,9 +1,9 @@
 {
-  "nomeCompleto": "Tricholomopsis rutilans",
-  "autore": "(Schaeff.) Singer 1939",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
-  "nomeCorrente": null,
-  "autoreCorrente": null,
+  "nomeCompleto": "Coprinus lagopus",
+  "autore": "(Fr.) Fr. 1838",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Psathyrellaceae",
+  "nomeCorrente": "Coprinopsis lagopus",
+  "autoreCorrente": "(Fr.) Redhead, Vilgalys & Moncalvo 2001",
   "campioniRaccolti": [
     {
       "collectionDate": "2025-09-20",
@@ -12,19 +12,11 @@
       "localityCoordinates": "45.880916, 9.919919",
       "habitat": "Misto pino e abete",
       "determiner": "Pierino Bigoni"
-    },
-    {
-      "collectionDate": "2025-08-26",
-      "collector": "Pierino Bigoni",
-      "locality": "Strada per le baite del Moschel, Oltressenda Alta",
-      "localityCoordinates": "45.93408, 10.00331",
-      "habitat": "Bosco misto",
-      "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "26/08",
+    "raccoltaPiuPrecoce": "20/09",
     "raccoltaPiuTarda": "20/09",
     "campioniPerMese": [
       {
@@ -49,7 +41,7 @@
         "lug": 0
       },
       {
-        "ago": 1
+        "ago": 0
       },
       {
         "set": 1
@@ -66,8 +58,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
     "campioniExsiccata": 0
   }
 }

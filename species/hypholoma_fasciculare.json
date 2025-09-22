@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-09-20",
+      "collector": "Pierino Bigoni",
+      "locality": "Parco avventura in Pineta, Clusone",
+      "localityCoordinates": "45.880916, 9.919919",
+      "habitat": "Misto pino e abete",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-08-31",
       "collector": "Maria Angela Maffeis",
       "locality": "Spiazzi, Gromo",
@@ -41,7 +49,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "25/05",
-    "raccoltaPiuTarda": "31/08",
+    "raccoltaPiuTarda": "20/09",
     "campioniPerMese": [
       {
         "gen": 0
@@ -68,7 +76,7 @@
         "ago": 2
       },
       {
-        "set": 0
+        "set": 1
       },
       {
         "ott": 0
@@ -82,8 +90,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }
