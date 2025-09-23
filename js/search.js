@@ -174,9 +174,12 @@ function hasWord(str, word) {
 
 // Perform taxon search
 function performTaxonSearch(taxonValue) {
-    // reset search filters to avoid inconsistencies
-    resetFilters();
-    resetFreeSearch();
+    // Switch to free search tab
+    switchTab('free-search');
+
+    // Set the search value
+    freeSearchInput.value = taxonValue;
+    hideAutocomplete();
 
     taxonValue = taxonValue.trim().toLowerCase();
 
@@ -215,6 +218,10 @@ function handleSpeciesClick(genus, species) {
 // Switch between tabs
 function switchTab(tabId) {
     currentTab = tabId;
+
+    // reset search filters to avoid inconsistencies
+    resetFilters();
+    resetFreeSearch();
 
     // Update tab buttons
     tabButtons.forEach(btn => {
