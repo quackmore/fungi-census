@@ -30,6 +30,14 @@
       "determiner": "Pierino Bigoni"
     },
     {
+      "collectionDate": "2025-09-21",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.909548, 9.973256",
+      "habitat": "Betulla",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-09-16",
       "collector": "Pierino Bigoni",
       "locality": "Mazzocca, Valgoglio",
@@ -92,7 +100,7 @@
         "ago": 2
       },
       {
-        "set": 5
+        "set": 6
       },
       {
         "ott": 0
@@ -106,8 +114,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 7,
-    "campioniRaccolti": 7,
+    "totaleCampioni": 8,
+    "campioniRaccolti": 8,
     "campioniExsiccata": 0
   }
 }
