@@ -6,6 +6,22 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-09-22",
+      "collector": "Sergio Lonati",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Angelo Fraschina"
+    },
+    {
+      "collectionDate": "2025-09-22",
+      "collector": "Sergio Lonati",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-09-14",
       "collector": "Pietro Centenari",
       "locality": "Piazza di Golla, Premolo",
@@ -73,7 +89,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "03/07",
-    "raccoltaPiuTarda": "14/09",
+    "raccoltaPiuTarda": "22/09",
     "campioniPerMese": [
       {
         "gen": 0
@@ -100,7 +116,7 @@
         "ago": 2
       },
       {
-        "set": 4
+        "set": 6
       },
       {
         "ott": 0
@@ -114,8 +130,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 8,
-    "campioniRaccolti": 8,
+    "totaleCampioni": 10,
+    "campioniRaccolti": 10,
     "campioniExsiccata": 0
   }
 }

@@ -6,6 +6,30 @@
   "autoreCorrente": "(Fr.) Vizzini 2014",
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-09-22",
+      "collector": "Juri Imberti",
+      "locality": "Monte Pora, Castione della Presolana",
+      "localityCoordinates": "45.890641, 10.103017",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-22",
+      "collector": "Antonio Guana",
+      "locality": "Selva d'Agnone, Valgoglio",
+      "localityCoordinates": "45.982797, 9.891481",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-22",
+      "collector": "Fabio Tresoldi",
+      "locality": "Monte Pora, Castione della Presolana",
+      "localityCoordinates": "45.890641, 10.103017",
+      "habitat": "Latifoglia",
+      "determiner": "Fabio Tresoldi"
+    },
+    {
       "collectionDate": "2025-09-17",
       "collector": "Pierino Bigoni",
       "locality": "Zenier, Rovetta",
@@ -33,7 +57,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "08/09",
-    "raccoltaPiuTarda": "17/09",
+    "raccoltaPiuTarda": "22/09",
     "campioniPerMese": [
       {
         "gen": 0
@@ -60,7 +84,7 @@
         "ago": 0
       },
       {
-        "set": 3
+        "set": 6
       },
       {
         "ott": 0
@@ -74,8 +98,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 6,
+    "campioniRaccolti": 6,
     "campioniExsiccata": 0
   }
 }

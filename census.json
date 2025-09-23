@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-09-22T07:35:34.274Z",
-  "totalSpecies": 320,
+  "generatedAt": "2025-09-23T08:46:38.280Z",
+  "totalSpecies": 326,
   "species": [
     {
       "genus": "Abortiporus",
@@ -613,6 +613,13 @@
     },
     {
       "genus": "Cortinarius",
+      "species": "bolaris",
+      "fullName": "Cortinarius bolaris",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
+      "authority": "(Pers.) Zawadzki 1835"
+    },
+    {
+      "genus": "Cortinarius",
       "species": "brunneus",
       "fullName": "Cortinarius brunneus",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
@@ -808,6 +815,13 @@
       "authority": "(DC.) Vizzini & Angelini 2014"
     },
     {
+      "genus": "Cystoderma",
+      "species": "amianthinum",
+      "fullName": "Cystoderma amianthinum",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Squamanitaceae",
+      "authority": "(Scop.) Fayod 1889"
+    },
+    {
       "genus": "Dacrymyces",
       "species": "chrysospermus",
       "fullName": "Dacrymyces chrysospermus",
@@ -961,6 +975,13 @@
       "fullName": "Gymnopus ocior",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Omphalotaceae",
       "authority": "(Pers.) Antonín & Noordel. 1997"
+    },
+    {
+      "genus": "Hebeloma",
+      "species": "crustuliniforme",
+      "fullName": "Hebeloma crustuliniforme",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Bull.) Quél. 1872"
     },
     {
       "genus": "Hebeloma",
@@ -1801,6 +1822,13 @@
     },
     {
       "genus": "Pseudohydnum",
+      "species": "gelatinosum",
+      "fullName": "Pseudohydnum gelatinosum",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales",
+      "authority": "(Scop.) P. Karst. 1868"
+    },
+    {
+      "genus": "Pseudohydnum",
       "species": "gelatinosum f. album",
       "fullName": "Pseudohydnum gelatinosum f. album",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales",
@@ -2071,6 +2099,13 @@
       "fullName": "Russula nigricans",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
       "authority": "Fr. 2021"
+    },
+    {
+      "genus": "Russula",
+      "species": "ochroleuca",
+      "fullName": "Russula ochroleuca",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+      "authority": "Fr. 1838"
     },
     {
       "genus": "Russula",
@@ -2393,6 +2428,15 @@
       "authority": "(Fr.) E.-J. Gilbert 1931",
       "currentName": "Imleria badia",
       "currentAuthority": "(Fr.) Vizzini 2014"
+    },
+    {
+      "genus": "Xerocomus",
+      "species": "chrysenteron",
+      "fullName": "Xerocomus chrysenteron",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
+      "authority": "(Bull.) Quél. 1888",
+      "currentName": "Xerocomellus chrysenteron",
+      "currentAuthority": "(Bull.) Šutara 2008"
     },
     {
       "genus": "Xerocomus",

@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-09-22",
+      "collector": "Antonio Guana",
+      "locality": "Selva d'Agnone, Valgoglio",
+      "localityCoordinates": "45.982797, 9.891481",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-09-14",
       "collector": "Pierino Bigoni",
       "locality": "Piazza di Golla, Premolo",
@@ -33,7 +41,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "01/08",
-    "raccoltaPiuTarda": "14/09",
+    "raccoltaPiuTarda": "22/09",
     "campioniPerMese": [
       {
         "gen": 0
@@ -60,7 +68,7 @@
         "ago": 2
       },
       {
-        "set": 1
+        "set": 2
       },
       {
         "ott": 0
@@ -74,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }
