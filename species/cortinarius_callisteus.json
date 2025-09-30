@@ -6,6 +6,14 @@
   "autoreCorrente": "(Fr.) Niskanen & Liimat. 2022",
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-09-29",
+      "collector": "Fabio Rossi",
+      "locality": "Valcanale",
+      "localityCoordinates": "45.950207, 9.858819",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-09-22",
       "collector": "Antonio Guana",
       "locality": "Selva d'Agnone, Valgoglio",
@@ -25,7 +33,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "05/09",
-    "raccoltaPiuTarda": "22/09",
+    "raccoltaPiuTarda": "29/09",
     "campioniPerMese": [
       {
         "gen": 0
@@ -52,7 +60,7 @@
         "ago": 0
       },
       {
-        "set": 2
+        "set": 3
       },
       {
         "ott": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }

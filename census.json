@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-09-29T00:30:24.376Z",
-  "totalSpecies": 326,
+  "generatedAt": "2025-09-30T00:30:31.555Z",
+  "totalSpecies": 330,
   "species": [
     {
       "genus": "Abortiporus",
@@ -164,6 +164,13 @@
       "authority": "(Fr.) Opiz 1852",
       "currentName": "Amanita excelsa",
       "currentAuthority": "(Fr.) Bertill. 1866"
+    },
+    {
+      "genus": "Armillaria",
+      "species": "ostoyae",
+      "fullName": "Armillaria ostoyae",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
+      "authority": "(Romagn.) Herink 1973"
     },
     {
       "genus": "Bisporella",
@@ -461,6 +468,15 @@
     },
     {
       "genus": "Clitocybe",
+      "species": "clavipes",
+      "fullName": "Clitocybe clavipes",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Pers.) P. Kumm. 1871",
+      "currentName": "Ampulloclitocybe clavipes",
+      "currentAuthority": "(Pers.) Redhead, Lutzoni, Moncalvo & Vilgalys 2002"
+    },
+    {
+      "genus": "Clitocybe",
       "species": "costata",
       "fullName": "Clitocybe costata",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
@@ -542,6 +558,15 @@
       "authority": "Singer 1961",
       "currentName": "Gymnopus erythropus",
       "currentAuthority": "(Pers.) Antonín, Halling & Noordel. 1997"
+    },
+    {
+      "genus": "Collybia",
+      "species": "maculata",
+      "fullName": "Collybia maculata",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Omphalotaceae",
+      "authority": "(Alb. & Schwein.) P. Kumm. 1871",
+      "currentName": "Rhodocollybia maculata",
+      "currentAuthority": "(Alb. & Schwein.) Singer 1939"
     },
     {
       "genus": "Collybia",
@@ -1432,6 +1457,15 @@
       "authority": "(Schumach.) Singer 1951",
       "currentName": "Collybia sordida",
       "currentAuthority": "(Schumach.) Z.M. He & Zhu L. Yang 2023"
+    },
+    {
+      "genus": "Leucoagaricus",
+      "species": "leucothites",
+      "fullName": "Leucoagaricus leucothites",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Agaricaceae",
+      "authority": "(Vittad.) Wasser 1977",
+      "currentName": "Leucocoprinus leucothites",
+      "currentAuthority": "(Vittad.) Redhead 2023"
     },
     {
       "genus": "Limacella",

@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-09-29",
+      "collector": "Fabio Rossi",
+      "locality": "Valcanale",
+      "localityCoordinates": "45.950207, 9.858819",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-09-21",
       "collector": "Pietro Centenari",
       "locality": "Campos, Rovetta",
@@ -33,7 +41,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "25/08",
-    "raccoltaPiuTarda": "21/09",
+    "raccoltaPiuTarda": "29/09",
     "campioniPerMese": [
       {
         "gen": 0
@@ -60,7 +68,7 @@
         "ago": 2
       },
       {
-        "set": 1
+        "set": 2
       },
       {
         "ott": 0
@@ -74,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }
