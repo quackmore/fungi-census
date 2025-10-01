@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-09-30T10:06:11.003Z",
-  "totalSpecies": 330,
+  "generatedAt": "2025-10-01T00:30:38.193Z",
+  "totalSpecies": 331,
   "species": [
     {
       "genus": "Abortiporus",
@@ -2177,6 +2177,13 @@
       "fullName": "Russula queletii",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
       "authority": "Fr. 1872"
+    },
+    {
+      "genus": "Russula",
+      "species": "recondita",
+      "fullName": "Russula recondita",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+      "authority": "Melera & Ostellari 2016"
     },
     {
       "genus": "Russula",
