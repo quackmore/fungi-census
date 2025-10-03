@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-10-02T00:30:25.966Z",
-  "totalSpecies": 331,
+  "generatedAt": "2025-10-03T00:30:38.189Z",
+  "totalSpecies": 337,
   "species": [
     {
       "genus": "Abortiporus",
@@ -8,6 +8,13 @@
       "fullName": "Abortiporus biennis",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Podoscyphaceae",
       "authority": "(Bull.) Singer 1944"
+    },
+    {
+      "genus": "Agaricus",
+      "species": "bitorquis",
+      "fullName": "Agaricus bitorquis",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Agaricaceae",
+      "authority": "(Quél.) Sacc. 1887"
     },
     {
       "genus": "Agaricus",
@@ -164,6 +171,13 @@
       "authority": "(Fr.) Opiz 1852",
       "currentName": "Amanita excelsa",
       "currentAuthority": "(Fr.) Bertill. 1866"
+    },
+    {
+      "genus": "Armillaria",
+      "species": "mellea",
+      "fullName": "Armillaria mellea",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
+      "authority": "(Vahl) P. Kumm. 1871"
     },
     {
       "genus": "Armillaria",
@@ -628,6 +642,15 @@
       "currentAuthority": "(Bull.) Vilgalys, Hopple & Jacq. Johnson 2001"
     },
     {
+      "genus": "Cordyceps",
+      "species": "capitata",
+      "fullName": "Cordyceps capitata",
+      "lineage": "regno: Fungi > pylum: Ascomycota > classe: Sordariomycetes > ordine: Hypocreales > famiglia: Ophiocordycipitaceae",
+      "authority": "(Holmsk.) Fr. 1818",
+      "currentName": "Tolypocladium capitatum",
+      "currentAuthority": "(Holmsk.) C.A. Quandt, Kepler & Spatafora 2014"
+    },
+    {
       "genus": "Cortinarius",
       "species": "atrovirens",
       "fullName": "Cortinarius atrovirens",
@@ -647,6 +670,13 @@
       "genus": "Cortinarius",
       "species": "brunneus",
       "fullName": "Cortinarius brunneus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
+      "authority": "(Pers.) Fr. 1838"
+    },
+    {
+      "genus": "Cortinarius",
+      "species": "bulliardii",
+      "fullName": "Cortinarius bulliardii",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
       "authority": "(Pers.) Fr. 1838"
     },
@@ -1401,6 +1431,13 @@
     },
     {
       "genus": "Lepista",
+      "species": "densifolia",
+      "fullName": "Lepista densifolia",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "authority": "(J. Favre) Singer & Clémençon 1973"
+    },
+    {
+      "genus": "Lepista",
       "species": "flaccida",
       "fullName": "Lepista flaccida",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
@@ -2013,6 +2050,13 @@
       "fullName": "Russula camarophylla",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
       "authority": "Romagn. 1967"
+    },
+    {
+      "genus": "Russula",
+      "species": "chloroides",
+      "fullName": "Russula chloroides",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+      "authority": "(Krombh.) Bres. 1900"
     },
     {
       "genus": "Russula",

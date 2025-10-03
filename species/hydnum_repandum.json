@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-02",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.90914, 9.97076",
+      "habitat": "Bosco misto",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2025-09-22",
       "collector": "Angelo Fraschina",
       "locality": "Spiazzi, Gromo",
@@ -73,7 +81,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "14/07",
-    "raccoltaPiuTarda": "22/09",
+    "raccoltaPiuTarda": "02/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -103,7 +111,7 @@
         "set": 4
       },
       {
-        "ott": 0
+        "ott": 1
       },
       {
         "nov": 0
@@ -114,8 +122,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 8,
-    "campioniRaccolti": 8,
+    "totaleCampioni": 9,
+    "campioniRaccolti": 9,
     "campioniExsiccata": 0
   }
 }

@@ -6,6 +6,22 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-02",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.909548, 9.973256",
+      "habitat": "Abete rosso",
+      "determiner": "Pietro Centenari"
+    },
+    {
+      "collectionDate": "2025-10-02",
+      "collector": "Pierino Bigoni",
+      "locality": "Zanèl ,Oltressenda Alta",
+      "localityCoordinates": "45.922674, 9.952497",
+      "habitat": "Misto latifoglie e abete",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-09-23",
       "collector": "Angelo Fraschina",
       "locality": "Spiazzi, Gromo",
@@ -97,7 +113,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "03/07",
-    "raccoltaPiuTarda": "23/09",
+    "raccoltaPiuTarda": "02/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -127,7 +143,7 @@
         "set": 7
       },
       {
-        "ott": 0
+        "ott": 2
       },
       {
         "nov": 0
@@ -138,8 +154,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 11,
-    "campioniRaccolti": 11,
+    "totaleCampioni": 13,
+    "campioniRaccolti": 13,
     "campioniExsiccata": 0
   }
 }

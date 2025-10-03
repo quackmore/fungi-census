@@ -6,6 +6,14 @@
   "autoreCorrente": "(Fr.) Vizzini 2014",
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-02",
+      "collector": "Pietro Centenari",
+      "locality": "Campos, Rovetta",
+      "localityCoordinates": "45.902933, 9.982538",
+      "habitat": "Abete e Castagno",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-09-29",
       "collector": "Fabio Rossi",
       "locality": "Valcanale, Ardesio",
@@ -65,7 +73,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "08/09",
-    "raccoltaPiuTarda": "29/09",
+    "raccoltaPiuTarda": "02/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -95,7 +103,7 @@
         "set": 7
       },
       {
-        "ott": 0
+        "ott": 1
       },
       {
         "nov": 0
@@ -106,8 +114,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 7,
-    "campioniRaccolti": 7,
+    "totaleCampioni": 8,
+    "campioniRaccolti": 8,
     "campioniExsiccata": 0
   }
 }

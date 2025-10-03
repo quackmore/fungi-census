@@ -1,30 +1,22 @@
 {
-  "nomeCompleto": "Lactarius deliciosus",
-  "autore": "(L.) Gray 1821",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+  "nomeCompleto": "Agaricus bitorquis",
+  "autore": "(Quél.) Sacc. 1887",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Agaricaceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2025-10-02",
-      "collector": "Pietro Centenari",
-      "locality": "Blum, Rovetta",
-      "localityCoordinates": "45.90684, 9.97134",
-      "habitat": "Pino",
-      "determiner": "Pietro Centenari"
-    },
-    {
-      "collectionDate": "2025-09-17",
-      "collector": "Pierino Bigoni",
-      "locality": "Zenier, Rovetta",
-      "localityCoordinates": "45.898619, 9.984853",
-      "habitat": "Bosco misto",
+      "collector": "Antonio Guana",
+      "locality": "Cimitero monumentale, Bergamo",
+      "localityCoordinates": "45.697583, 9.690081",
+      "habitat": "Aiuole",
       "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "17/09",
+    "raccoltaPiuPrecoce": "02/10",
     "raccoltaPiuTarda": "02/10",
     "campioniPerMese": [
       {
@@ -52,7 +44,7 @@
         "ago": 0
       },
       {
-        "set": 1
+        "set": 0
       },
       {
         "ott": 1
@@ -66,8 +58,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
     "campioniExsiccata": 0
   }
 }

@@ -1,30 +1,30 @@
 {
-  "nomeCompleto": "Lactarius deliciosus",
-  "autore": "(L.) Gray 1821",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+  "nomeCompleto": "Armillaria mellea",
+  "autore": "(Vahl) P. Kumm. 1871",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2025-10-02",
-      "collector": "Pietro Centenari",
-      "locality": "Blum, Rovetta",
-      "localityCoordinates": "45.90684, 9.97134",
-      "habitat": "Pino",
-      "determiner": "Pietro Centenari"
+      "collector": "Pierino Bigoni",
+      "locality": "Gròmèl ,Oltressenda Alta",
+      "localityCoordinates": "",
+      "habitat": "Misto latifoglie  e  Abete rosso",
+      "determiner": "Pierino Bigoni"
     },
     {
-      "collectionDate": "2025-09-17",
-      "collector": "Pierino Bigoni",
-      "locality": "Zenier, Rovetta",
-      "localityCoordinates": "45.898619, 9.984853",
+      "collectionDate": "2025-10-02",
+      "collector": "Pietro Centenari",
+      "locality": "Cascina Bianca, Rovetta",
+      "localityCoordinates": "45.906748, 9.980383",
       "habitat": "Bosco misto",
       "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "17/09",
+    "raccoltaPiuPrecoce": "02/10",
     "raccoltaPiuTarda": "02/10",
     "campioniPerMese": [
       {
@@ -52,10 +52,10 @@
         "ago": 0
       },
       {
-        "set": 1
+        "set": 0
       },
       {
-        "ott": 1
+        "ott": 2
       },
       {
         "nov": 0
