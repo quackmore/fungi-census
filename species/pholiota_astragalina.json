@@ -6,6 +6,14 @@
   "autoreCorrente": "(Fr.) E.J. Tian & Matheny 2020",
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-06",
+      "collector": "Fabio Locatel",
+      "locality": "Schilpario",
+      "localityCoordinates": "46.009394, 10.154059",
+      "habitat": "Bosco misto",
+      "determiner": "Fabio Locatelli"
+    },
+    {
       "collectionDate": "2025-09-08",
       "collector": "Fabio Locatelli",
       "locality": "Ripa, Gromo",
@@ -25,7 +33,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "31/08",
-    "raccoltaPiuTarda": "08/09",
+    "raccoltaPiuTarda": "06/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -55,7 +63,7 @@
         "set": 1
       },
       {
-        "ott": 0
+        "ott": 1
       },
       {
         "nov": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }

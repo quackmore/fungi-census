@@ -6,6 +6,22 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-06",
+      "collector": "Fabio Locatelli",
+      "locality": "Schilpario",
+      "localityCoordinates": "46.009394, 10.154059",
+      "habitat": "Bosco misto",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-10-06",
+      "collector": "Fabio Tresoldi",
+      "locality": "Monte Pora, Castione della Presolana",
+      "localityCoordinates": "45.890641, 10.103017",
+      "habitat": "Bosco misto",
+      "determiner": "Angelo Ballabeni"
+    },
+    {
       "collectionDate": "2025-09-15",
       "collector": "Juri Imberti",
       "locality": "Monte Pora, Castione della Presolana",
@@ -33,7 +49,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "18/07",
-    "raccoltaPiuTarda": "15/09",
+    "raccoltaPiuTarda": "06/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -63,7 +79,7 @@
         "set": 1
       },
       {
-        "ott": 0
+        "ott": 2
       },
       {
         "nov": 0
@@ -74,8 +90,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }

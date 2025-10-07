@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-10-06T00:30:24.419Z",
-  "totalSpecies": 337,
+  "generatedAt": "2025-10-07T00:30:53.792Z",
+  "totalSpecies": 355,
   "species": [
     {
       "genus": "Abortiporus",
@@ -65,6 +65,13 @@
       "authority": "(Alb. & Schwein.) Kotl. & Pouzar 1957",
       "currentName": "Albatrellopsis confluens",
       "currentAuthority": "(Alb. & Schwein.) Teixeira 1993"
+    },
+    {
+      "genus": "Albatrellus",
+      "species": "ovinus",
+      "fullName": "Albatrellus ovinus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Albatrellaceae",
+      "authority": "(Schaeff.) Kotl. & Pouzar 1957"
     },
     {
       "genus": "Amanita",
@@ -705,6 +712,13 @@
     },
     {
       "genus": "Cortinarius",
+      "species": "cumatilis",
+      "fullName": "Cortinarius cumatilis",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
+      "authority": "Fr. 1838"
+    },
+    {
+      "genus": "Cortinarius",
       "species": "elegantior",
       "fullName": "Cortinarius elegantior",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
@@ -721,12 +735,26 @@
     },
     {
       "genus": "Cortinarius",
+      "species": "integerrimus",
+      "fullName": "Cortinarius integerrimus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
+      "authority": "Kühner 1989"
+    },
+    {
+      "genus": "Cortinarius",
       "species": "limonius",
       "fullName": "Cortinarius limonius",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
       "authority": "(Fr.) Fr. 1838",
       "currentName": "Aureonarius limonius",
       "currentAuthority": "(Fr.) Niskanen & Liimat. 2022"
+    },
+    {
+      "genus": "Cortinarius",
+      "species": "malicorius",
+      "fullName": "Cortinarius malicorius",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
+      "authority": "Fr. 1838"
     },
     {
       "genus": "Cortinarius",
@@ -905,6 +933,13 @@
       "authority": "(Fr.) Fr. 1849",
       "currentName": "Discina ancilis",
       "currentAuthority": "(Pers.) Sacc. 1889"
+    },
+    {
+      "genus": "Elaphomyces",
+      "species": "granulatus",
+      "fullName": "Elaphomyces granulatus",
+      "lineage": "regno: Fungi > pylum: Ascomycota > classe: Eurotiomycetes > ordine: Eurotiales > famiglia: Elaphomycetaceae",
+      "authority": "Fr. 1829"
     },
     {
       "genus": "Entoloma",
@@ -1119,6 +1154,27 @@
     },
     {
       "genus": "Hygrophorus",
+      "species": "atramentosus",
+      "fullName": "Hygrophorus atramentosus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Alb. & Schwein.) H. Haas & R. Haller Aar. ex Bon 1985"
+    },
+    {
+      "genus": "Hygrophorus",
+      "species": "capreolarius",
+      "fullName": "Hygrophorus capreolarius",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Kalchbr.) Sacc. 1887"
+    },
+    {
+      "genus": "Hygrophorus",
+      "species": "discoideus",
+      "fullName": "Hygrophorus discoideus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Pers.) Fr. 1838"
+    },
+    {
+      "genus": "Hygrophorus",
       "species": "eburneus",
       "fullName": "Hygrophorus eburneus",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
@@ -1130,6 +1186,13 @@
       "fullName": "Hygrophorus erubescens",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
       "authority": "(Fr.) Fr. 1838"
+    },
+    {
+      "genus": "Hygrophorus",
+      "species": "pudorinus",
+      "fullName": "Hygrophorus pudorinus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Fr.) Fr. 1836"
     },
     {
       "genus": "Hymenoscyphus",
@@ -1211,6 +1274,13 @@
       "fullName": "Laccaria laccata",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hydnangiaceae",
       "authority": "(Scop.) Cooke 1884"
+    },
+    {
+      "genus": "Lactarius",
+      "species": "badiosanguineus",
+      "fullName": "Lactarius badiosanguineus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+      "authority": "Kühner & Romagn. 1954"
     },
     {
       "genus": "Lactarius",
@@ -1788,6 +1858,13 @@
       "authority": "(Peck) Franchi & M. Marchetti 2018"
     },
     {
+      "genus": "Phaeolepiota",
+      "species": "aurea",
+      "fullName": "Phaeolepiota aurea",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "authority": "(Bull.) R. Maire ex Konrad & Maubl. 1928"
+    },
+    {
       "genus": "Phaeolus",
       "species": "schweinitzii",
       "fullName": "Phaeolus schweinitzii",
@@ -1874,6 +1951,13 @@
       "fullName": "Porphyrellus porphyrosporus",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
       "authority": "(Fr.) E.-J. Gilbert 1931"
+    },
+    {
+      "genus": "Postia",
+      "species": "caerulea",
+      "fullName": "Postia caerulea",
+      "lineage": null,
+      "authority": "undefined undefined"
     },
     {
       "genus": "Psathyrella",
@@ -2036,6 +2120,13 @@
       "fullName": "Russula aurora",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
       "authority": "Krombh. 1845"
+    },
+    {
+      "genus": "Russula",
+      "species": "azurea",
+      "fullName": "Russula azurea",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+      "authority": "Bres. 1882"
     },
     {
       "genus": "Russula",
@@ -2324,6 +2415,13 @@
     },
     {
       "genus": "Stropharia",
+      "species": "aeruginosa",
+      "fullName": "Stropharia aeruginosa",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Curtis) Quél. 1872"
+    },
+    {
+      "genus": "Stropharia",
       "species": "rugosoannulata",
       "fullName": "Stropharia rugosoannulata",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
@@ -2365,6 +2463,13 @@
       "fullName": "Suillus placidus",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Suillaceae",
       "authority": "(Bonord.) Singer 1945"
+    },
+    {
+      "genus": "Suillus",
+      "species": "variegatus",
+      "fullName": "Suillus variegatus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Gyroporaceae",
+      "authority": "(Sw.) Richon & Roze 1888"
     },
     {
       "genus": "Tapinella",
@@ -2419,6 +2524,20 @@
     },
     {
       "genus": "Tricholoma",
+      "species": "inamoenum",
+      "fullName": "Tricholoma inamoenum",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
+      "authority": "(Fr.) Gillet 1874"
+    },
+    {
+      "genus": "Tricholoma",
+      "species": "orirubens",
+      "fullName": "Tricholoma orirubens",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
+      "authority": "Quél. 1872"
+    },
+    {
+      "genus": "Tricholoma",
       "species": "pardinum",
       "fullName": "Tricholoma pardinum",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
@@ -2446,6 +2565,13 @@
       "authority": "(Cooke) Rea 1922",
       "currentName": "Tricholoma saponaceum",
       "currentAuthority": "(Fr.) P. Kumm. 1871"
+    },
+    {
+      "genus": "Tricholoma",
+      "species": "sejunctum",
+      "fullName": "Tricholoma sejunctum",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
+      "authority": "(Sowerby) Quél. 1872"
     },
     {
       "genus": "Tricholoma",

@@ -1,38 +1,30 @@
 {
-  "nomeCompleto": "Cortinarius sanguineus",
-  "autore": "(Wulfen) Gray 1821",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
+  "nomeCompleto": "Hygrophorus pudorinus",
+  "autore": "(Fr.) Fr. 1836",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2025-10-06",
-      "collector": "Fabio Locatel",
-      "locality": "Schilpario",
-      "localityCoordinates": "46.009394, 10.154059",
-      "habitat": "Bosco misto",
+      "collector": "Angelo Fraschina",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
       "determiner": "Fabio Locatelli"
     },
     {
-      "collectionDate": "2025-08-05",
+      "collectionDate": "2025-10-06",
       "collector": "Fabio Locatelli",
       "locality": "Schilpario",
       "localityCoordinates": "46.009394, 10.154059",
-      "habitat": "Abete rosso",
-      "determiner": "Fabio Locatelli"
-    },
-    {
-      "collectionDate": "2025-08-05",
-      "collector": "Pietro Centenari",
-      "locality": "Vilmaggiore, Vilminore di Scalve",
-      "localityCoordinates": "46.004013, 10.109599",
-      "habitat": "Abete rosso",
+      "habitat": "Bosco misto",
       "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "05/08",
+    "raccoltaPiuPrecoce": "06/10",
     "raccoltaPiuTarda": "06/10",
     "campioniPerMese": [
       {
@@ -57,13 +49,13 @@
         "lug": 0
       },
       {
-        "ago": 2
+        "ago": 0
       },
       {
         "set": 0
       },
       {
-        "ott": 1
+        "ott": 2
       },
       {
         "nov": 0
@@ -74,8 +66,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
     "campioniExsiccata": 0
   }
 }

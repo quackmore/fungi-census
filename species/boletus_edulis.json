@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-06",
+      "collector": "Fabio Locatelli",
+      "locality": "Schilpario",
+      "localityCoordinates": "46.009394, 10.154059",
+      "habitat": "Bosco misto",
+      "determiner": "Fabio Locatelli"
+    },
+    {
       "collectionDate": "2025-10-02",
       "collector": "Pietro Centenari",
       "locality": "Blum, Rovetta",
@@ -113,7 +121,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "03/07",
-    "raccoltaPiuTarda": "02/10",
+    "raccoltaPiuTarda": "06/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -143,7 +151,7 @@
         "set": 7
       },
       {
-        "ott": 2
+        "ott": 3
       },
       {
         "nov": 0
@@ -154,8 +162,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 13,
-    "campioniRaccolti": 13,
+    "totaleCampioni": 14,
+    "campioniRaccolti": 14,
     "campioniExsiccata": 0
   }
 }

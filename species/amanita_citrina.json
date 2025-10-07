@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-06",
+      "collector": "Fabio Locatel",
+      "locality": "Schilpario",
+      "localityCoordinates": "46.009394, 10.154059",
+      "habitat": "Bosco misto",
+      "determiner": "Fabio Locatelli"
+    },
+    {
       "collectionDate": "2025-10-02",
       "collector": "Pierino Bigoni",
       "locality": "Zanèl, Oltressenda Alta",
@@ -89,7 +97,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "01/08",
-    "raccoltaPiuTarda": "02/10",
+    "raccoltaPiuTarda": "06/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -119,7 +127,7 @@
         "set": 7
       },
       {
-        "ott": 1
+        "ott": 2
       },
       {
         "nov": 0
@@ -130,8 +138,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 10,
-    "campioniRaccolti": 10,
+    "totaleCampioni": 11,
+    "campioniRaccolti": 11,
     "campioniExsiccata": 0
   }
 }

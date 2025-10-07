@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-06",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.909548, 9.973256",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-09-17",
       "collector": "Pierino Bigoni",
       "locality": "Zenier, Rovetta",
@@ -41,7 +49,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "05/09",
-    "raccoltaPiuTarda": "17/09",
+    "raccoltaPiuTarda": "06/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -71,7 +79,7 @@
         "set": 4
       },
       {
-        "ott": 0
+        "ott": 1
       },
       {
         "nov": 0
@@ -82,8 +90,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }

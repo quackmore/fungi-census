@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-06",
+      "collector": "Pietro Centenari",
+      "locality": "Campos, Rovetta",
+      "localityCoordinates": "45.903515, 9.983604",
+      "habitat": "Abete rosso e castagno",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2025-10-02",
       "collector": "Pierino Bigoni",
       "locality": "Zanèl, Oltressenda Alta",
@@ -81,7 +89,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "18/06",
-    "raccoltaPiuTarda": "02/10",
+    "raccoltaPiuTarda": "06/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -111,7 +119,7 @@
         "set": 4
       },
       {
-        "ott": 1
+        "ott": 2
       },
       {
         "nov": 0
@@ -122,8 +130,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 9,
-    "campioniRaccolti": 9,
+    "totaleCampioni": 10,
+    "campioniRaccolti": 10,
     "campioniExsiccata": 0
   }
 }
