@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-07T00:30:53.792Z",
+  "generatedAt": "2025-10-07T07:39:55.911Z",
   "totalSpecies": 355,
   "species": [
     {
@@ -1954,10 +1954,12 @@
     },
     {
       "genus": "Postia",
-      "species": "caerulea",
-      "fullName": "Postia caerulea",
-      "lineage": null,
-      "authority": "undefined undefined"
+      "species": "coeruleivirens",
+      "fullName": "Postia coeruleivirens",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+      "authority": "(Corner) V. Papp 2015",
+      "currentName": "Cyanosporus coeruleivirens",
+      "currentAuthority": "(Corner) B.K. Cui, Shun Liu & Y.C. Dai 2021"
     },
     {
       "genus": "Psathyrella",

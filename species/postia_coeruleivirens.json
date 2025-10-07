@@ -1,9 +1,9 @@
 {
-  "nomeCompleto": "Lactarius badiosanguineus",
-  "autore": "Kühner & Romagn. 1954",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
-  "nomeCorrente": null,
-  "autoreCorrente": null,
+  "nomeCompleto": "Postia coeruleivirens",
+  "autore": "(Corner) V. Papp 2015",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+  "nomeCorrente": "Cyanosporus coeruleivirens",
+  "autoreCorrente": "(Corner) B.K. Cui, Shun Liu & Y.C. Dai 2021",
   "campioniRaccolti": [
     {
       "collectionDate": "2025-10-06",
