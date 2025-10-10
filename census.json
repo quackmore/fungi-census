@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-10-09T00:30:36.098Z",
-  "totalSpecies": 356,
+  "generatedAt": "2025-10-10T00:30:25.051Z",
+  "totalSpecies": 355,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1186,13 +1186,6 @@
       "fullName": "Hygrophorus erubescens",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
       "authority": "(Fr.) Fr. 1838"
-    },
-    {
-      "genus": "Hygrophorus",
-      "species": "marzuolus",
-      "fullName": "Hygrophorus marzuolus",
-      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
-      "authority": "(Fr.) Bres. 1893"
     },
     {
       "genus": "Hygrophorus",
