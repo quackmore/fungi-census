@@ -1,30 +1,22 @@
 {
-  "nomeCompleto": "Cortinarius caperatus",
-  "autore": "(Pers.) Fr. 1838",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
+  "nomeCompleto": "Craterellus cinereus",
+  "autore": "(Pers.) Pers. 1825",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Cantharellales > famiglia: Hydnaceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2025-10-08",
       "collector": "Fabio Locatelli",
-      "locality": "Ripa, Gromo",
-      "localityCoordinates": "45.976347, 9.928513",
-      "habitat": "Faggeta",
-      "determiner": "Fabio Locatelli"
-    },
-    {
-      "collectionDate": "2025-08-01",
-      "collector": "Fabio Locatelli",
-      "locality": "Ripa, Gromo",
-      "localityCoordinates": "45.976347, 9.928513",
-      "habitat": "Abete rosso",
+      "locality": "Prat del sul, Clusone",
+      "localityCoordinates": "45.867941, 9.932321",
+      "habitat": "Faggio",
       "determiner": "Fabio Locatelli"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "01/08",
+    "raccoltaPiuPrecoce": "08/10",
     "raccoltaPiuTarda": "08/10",
     "campioniPerMese": [
       {
@@ -49,7 +41,7 @@
         "lug": 0
       },
       {
-        "ago": 1
+        "ago": 0
       },
       {
         "set": 0
@@ -66,8 +58,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
     "campioniExsiccata": 0
   }
 }

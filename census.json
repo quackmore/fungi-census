@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-10-10T00:30:25.051Z",
-  "totalSpecies": 355,
+  "generatedAt": "2025-10-10T12:38:17.301Z",
+  "totalSpecies": 360,
   "species": [
     {
       "genus": "Abortiporus",
@@ -864,6 +864,13 @@
     },
     {
       "genus": "Craterellus",
+      "species": "cinereus",
+      "fullName": "Craterellus cinereus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Cantharellales > famiglia: Hydnaceae",
+      "authority": "(Pers.) Pers. 1825"
+    },
+    {
+      "genus": "Craterellus",
       "species": "cornucopioides",
       "fullName": "Craterellus cornucopioides",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Cantharellales > famiglia: Hydnaceae",
@@ -875,6 +882,13 @@
       "fullName": "Craterellus lutescens",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Cantharellales > famiglia: Hydnaceae",
       "authority": "(Fr.) Fr. 1838"
+    },
+    {
+      "genus": "Craterellus",
+      "species": "melanoxeros",
+      "fullName": "Craterellus melanoxeros",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Cantharellales > famiglia: Hydnaceae",
+      "authority": "(Desm.) Pérez-De-Greg. 2000"
     },
     {
       "genus": "Craterellus",
@@ -1221,6 +1235,15 @@
       "fullName": "Hypholoma lateritium",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
       "authority": "(Schaeff.) P. Kumm. 1871"
+    },
+    {
+      "genus": "Hypholoma",
+      "species": "sublateritium",
+      "fullName": "Hypholoma sublateritium",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Fr.) Quél. 1872",
+      "currentName": "Hypholoma lateritium",
+      "currentAuthority": "(Schaeff.) P. Kumm. 1871"
     },
     {
       "genus": "Inocybe",
@@ -1954,12 +1977,12 @@
     },
     {
       "genus": "Postia",
-      "species": "coeruleivirens",
-      "fullName": "Postia coeruleivirens",
+      "species": "caesia",
+      "fullName": "Postia caesia",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
-      "authority": "(Corner) V. Papp 2015",
-      "currentName": "Cyanosporus coeruleivirens",
-      "currentAuthority": "(Corner) B.K. Cui, Shun Liu & Y.C. Dai 2021"
+      "authority": "(Schrad.) P. Karst. 1881",
+      "currentName": "Cyanosporus caesius",
+      "currentAuthority": "(Schrad.) McGinty 1909"
     },
     {
       "genus": "Psathyrella",
@@ -2001,6 +2024,13 @@
       "authority": "(Jacq.) P. Karst. 1881",
       "currentName": "Trametes cinnabarina",
       "currentAuthority": "(Jacq.) Fr. 1849"
+    },
+    {
+      "genus": "Ramaria",
+      "species": "botrytis",
+      "fullName": "Ramaria botrytis",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Gomphales > famiglia: Gomphaceae",
+      "authority": "(Pers.) Bourdot 1894"
     },
     {
       "genus": "Ramaria",
@@ -2059,6 +2089,13 @@
       "fullName": "Ramaria rufescens",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Gomphales > famiglia: Gomphaceae",
       "authority": "(Schaeff.) Corner 1950"
+    },
+    {
+      "genus": "Ramaria",
+      "species": "sanguinea",
+      "fullName": "Ramaria sanguinea",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Gomphales > famiglia: Gomphaceae",
+      "authority": "(Pers.) Quél. 1888"
     },
     {
       "genus": "Ramaria",
