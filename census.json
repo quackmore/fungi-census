@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-10-11T00:30:35.473Z",
-  "totalSpecies": 361,
+  "generatedAt": "2025-10-11T16:25:17.724Z",
+  "totalSpecies": 374,
   "species": [
     {
       "genus": "Abortiporus",
@@ -192,6 +192,27 @@
       "fullName": "Armillaria ostoyae",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
       "authority": "(Romagn.) Herink 1973"
+    },
+    {
+      "genus": "Auricularia",
+      "species": "auricula-judae",
+      "fullName": "Auricularia auricula-judae",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales > famiglia: Auriculariaceae",
+      "authority": "(Bull.) Quél. 1886"
+    },
+    {
+      "genus": "Auriscalpium",
+      "species": "vulgare",
+      "fullName": "Auriscalpium vulgare",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Auriscalpiaceae",
+      "authority": "Gray 1821"
+    },
+    {
+      "genus": "Baeospora",
+      "species": "myosura",
+      "fullName": "Baeospora myosura",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "authority": "(Fr.) Singer 1938"
     },
     {
       "genus": "Bisporella",
@@ -580,6 +601,15 @@
     },
     {
       "genus": "Collybia",
+      "species": "distorta",
+      "fullName": "Collybia distorta",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Omphalotaceae",
+      "authority": "(Fr.) Quél. 1872",
+      "currentName": "Rhodocollybia prolixa",
+      "currentAuthority": "(Fr.) Antonín & Noordel. 1997"
+    },
+    {
+      "genus": "Collybia",
       "species": "kuehneriana",
       "fullName": "Collybia kuehneriana",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Omphalotaceae",
@@ -905,6 +935,13 @@
       "authority": "(Fr.) Quél. 1888"
     },
     {
+      "genus": "Crucibulum",
+      "species": "laeve",
+      "fullName": "Crucibulum laeve",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "authority": "(Huds.) Kambly 1936"
+    },
+    {
       "genus": "Cyathus",
       "species": "striatus",
       "fullName": "Cyathus striatus",
@@ -1038,6 +1075,13 @@
     },
     {
       "genus": "Ganoderma",
+      "species": "adspersum",
+      "fullName": "Ganoderma adspersum",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+      "authority": "(Schulzer) Donk 1969"
+    },
+    {
+      "genus": "Ganoderma",
       "species": "lucidum",
       "fullName": "Ganoderma lucidum",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
@@ -1117,6 +1161,13 @@
     },
     {
       "genus": "Helvella",
+      "species": "monachella",
+      "fullName": "Helvella monachella",
+      "lineage": "regno: Fungi > pylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Helvellaceae",
+      "authority": "(Scop.) Fr. 1822"
+    },
+    {
+      "genus": "Helvella",
       "species": "silvicola",
       "fullName": "Helvella silvicola",
       "lineage": "regno: Fungi > pylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Helvellaceae",
@@ -1158,6 +1209,15 @@
       "fullName": "Hydnum rufescens",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Cantharellales > famiglia: Hydnaceae",
       "authority": "Pers. 1800"
+    },
+    {
+      "genus": "Hygrocybe",
+      "species": "calyptriformis",
+      "fullName": "Hygrocybe calyptriformis",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Berk.) Fayod 1889",
+      "currentName": "Porpolomopsis calyptriformis",
+      "currentAuthority": "(Berk.) Bresinsky 2008"
     },
     {
       "genus": "Hygrocybe",
@@ -1283,6 +1343,15 @@
       "fullName": "Inocybe pyriodora",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
       "authority": "(Pers.) P. Kumm. 1871"
+    },
+    {
+      "genus": "Inocybe",
+      "species": "rimosa",
+      "fullName": "Inocybe rimosa",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
+      "authority": "(Bull.) Kalchbr. 1867",
+      "currentName": "Pseudosperma rimosum",
+      "currentAuthority": "(Bull.) Matheny & Esteve-Rav. 2019"
     },
     {
       "genus": "Kuehneromyces",
@@ -1522,6 +1591,13 @@
     },
     {
       "genus": "Lepiota",
+      "species": "magnispora",
+      "fullName": "Lepiota magnispora",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Agaricaceae",
+      "authority": "Murrill 1912"
+    },
+    {
+      "genus": "Lepiota",
       "species": "ventriosospora",
       "fullName": "Lepiota ventriosospora",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Agaricaceae",
@@ -1544,6 +1620,13 @@
       "authority": "(Sowerby) Pat. 1887",
       "currentName": "Paralepista flaccida",
       "currentAuthority": "(Sowerby) Vizzini 2012"
+    },
+    {
+      "genus": "Lepista",
+      "species": "glaucocana",
+      "fullName": "Lepista glaucocana",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "authority": "(Bres.) Singer 1951"
     },
     {
       "genus": "Lepista",
@@ -1815,6 +1898,13 @@
       "fullName": "Mycena rosea",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
       "authority": "Gramberg 1912"
+    },
+    {
+      "genus": "Mycena",
+      "species": "zephirus",
+      "fullName": "Mycena zephirus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
+      "authority": "(Fr.) P. Kumm. 1871"
     },
     {
       "genus": "Oudemansiella",
@@ -2152,6 +2242,15 @@
       "fullName": "Russula alutacea",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
       "authority": "(Pers.) Fr. 1838"
+    },
+    {
+      "genus": "Russula",
+      "species": "amara",
+      "fullName": "Russula amara",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+      "authority": "Kučera 1927",
+      "currentName": "Russula caerulea",
+      "currentAuthority": "Fr. 1838"
     },
     {
       "genus": "Russula",

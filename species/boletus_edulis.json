@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-09",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.882983, 9.918480",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-10-08",
       "collector": "Fabio Locatelli",
       "locality": "Ripa, Gromo",
@@ -129,7 +137,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "03/07",
-    "raccoltaPiuTarda": "08/10",
+    "raccoltaPiuTarda": "09/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -159,7 +167,7 @@
         "set": 7
       },
       {
-        "ott": 4
+        "ott": 5
       },
       {
         "nov": 0
@@ -170,8 +178,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 15,
-    "campioniRaccolti": 15,
+    "totaleCampioni": 16,
+    "campioniRaccolti": 16,
     "campioniExsiccata": 0
   }
 }
