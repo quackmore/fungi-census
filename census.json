@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-10-10T12:38:17.301Z",
-  "totalSpecies": 360,
+  "generatedAt": "2025-10-11T00:30:35.473Z",
+  "totalSpecies": 361,
   "species": [
     {
       "genus": "Abortiporus",
@@ -561,6 +561,13 @@
       "authority": "(Bull.) P. Kumm. 1871",
       "currentName": "Rhodocollybia butyracea",
       "currentAuthority": "(Bull.) Lennox 1979"
+    },
+    {
+      "genus": "Collybia",
+      "species": "cirrhata",
+      "fullName": "Collybia cirrhata",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Clitocybaceae",
+      "authority": "(Pers.) Quél. 1872"
     },
     {
       "genus": "Collybia",

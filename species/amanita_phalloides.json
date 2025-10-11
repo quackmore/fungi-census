@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-10",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva rocc.Sparpai",
+      "localityCoordinates": "",
+      "habitat": "Pino abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-10-06",
       "collector": "Pietro Centenari",
       "locality": "Campos, Rovetta",
@@ -89,7 +97,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "18/06",
-    "raccoltaPiuTarda": "06/10",
+    "raccoltaPiuTarda": "10/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -119,7 +127,7 @@
         "set": 4
       },
       {
-        "ott": 2
+        "ott": 3
       },
       {
         "nov": 0
@@ -130,8 +138,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 10,
-    "campioniRaccolti": 10,
+    "totaleCampioni": 11,
+    "campioniRaccolti": 11,
     "campioniExsiccata": 0
   }
 }
