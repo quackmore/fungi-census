@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-14",
+      "collector": "Angelo Fraschina",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Angelo Fraschina"
+    },
+    {
       "collectionDate": "2025-10-09",
       "collector": "Pierino Bigoni",
       "locality": "Pineta della Selva, Clusone",
@@ -137,7 +145,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "03/07",
-    "raccoltaPiuTarda": "09/10",
+    "raccoltaPiuTarda": "14/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -167,7 +175,7 @@
         "set": 7
       },
       {
-        "ott": 5
+        "ott": 6
       },
       {
         "nov": 0
@@ -178,8 +186,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 16,
-    "campioniRaccolti": 16,
+    "totaleCampioni": 17,
+    "campioniRaccolti": 17,
     "campioniExsiccata": 0
   }
 }
