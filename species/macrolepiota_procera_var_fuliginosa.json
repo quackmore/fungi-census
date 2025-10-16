@@ -2,8 +2,8 @@
   "nomeCompleto": "Macrolepiota procera var. fuliginosa",
   "autore": "(Barla) Bellù & Lanzoni 1987",
   "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Agaricaceae",
-  "nomeCorrente": "Macrolepiota fuliginosa",
-  "autoreCorrente": "(Barla) Bon 1977",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2025-09-14",

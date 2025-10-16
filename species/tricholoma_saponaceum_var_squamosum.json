@@ -2,8 +2,8 @@
   "nomeCompleto": "Tricholoma saponaceum var. squamosum",
   "autore": "(Cooke) Rea 1922",
   "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
-  "nomeCorrente": "Tricholoma saponaceum",
-  "autoreCorrente": "(Fr.) P. Kumm. 1871",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2025-08-26",

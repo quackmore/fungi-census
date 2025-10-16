@@ -2,8 +2,8 @@
   "nomeCompleto": "Russula cyanoxantha f. peltereaui",
   "autore": "Singer 1926",
   "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
-  "nomeCorrente": "Russula cyanoxantha",
-  "autoreCorrente": "(Schaeff.) Fr. 1863",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2025-09-04",

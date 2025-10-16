@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-16T00:30:24.812Z",
+  "generatedAt": "2025-10-16T09:54:14.331Z",
   "totalSpecies": 374,
   "species": [
     {
@@ -99,9 +99,7 @@
       "species": "excelsa var. spissa",
       "fullName": "Amanita excelsa var. spissa",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Amanitaceae",
-      "authority": "(Fr.) Neville & Poumarat 2004",
-      "currentName": "Amanita excelsa",
-      "currentAuthority": "(Fr.) Bertill. 1866"
+      "authority": "(Fr.) Neville & Poumarat 2004"
     },
     {
       "genus": "Amanita",
@@ -166,9 +164,7 @@
       "species": "rubescens f. annulosulphurea",
       "fullName": "Amanita rubescens f. annulosulphurea",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Amanitaceae",
-      "authority": "(Gillet) J.E. Lange 1915",
-      "currentName": "Amanita rubescens",
-      "currentAuthority": "Pers. 1797"
+      "authority": "(Gillet) J.E. Lange 1915"
     },
     {
       "genus": "Amanita",
@@ -1308,9 +1304,7 @@
       "species": "sublateritium",
       "fullName": "Hypholoma sublateritium",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
-      "authority": "(Fr.) Quél. 1872",
-      "currentName": "Hypholoma lateritium",
-      "currentAuthority": "(Schaeff.) P. Kumm. 1871"
+      "authority": "(Fr.) Quél. 1872"
     },
     {
       "genus": "Inocybe",
@@ -1770,9 +1764,7 @@
       "species": "procera var. fuliginosa",
       "fullName": "Macrolepiota procera var. fuliginosa",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Agaricaceae",
-      "authority": "(Barla) Bellù & Lanzoni 1987",
-      "currentName": "Macrolepiota fuliginosa",
-      "currentAuthority": "(Barla) Bon 1977"
+      "authority": "(Barla) Bellù & Lanzoni 1987"
     },
     {
       "genus": "Macrolepiota",
@@ -2109,9 +2101,7 @@
       "species": "gelatinosum f. album",
       "fullName": "Pseudohydnum gelatinosum f. album",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales",
-      "authority": "(Bres.) Kobayasi 1954",
-      "currentName": "Pseudohydnum gelatinosum",
-      "currentAuthority": "(Scop.) P. Karst. 1868"
+      "authority": "(Bres.) Kobayasi 1954"
     },
     {
       "genus": "Pycnoporus",
@@ -2155,9 +2145,7 @@
       "species": "formosa f. neoformosa",
       "fullName": "Ramaria formosa f. neoformosa",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Gomphales > famiglia: Gomphaceae",
-      "authority": "(R.H. Petersen) Franchi & M. Marchetti 2020",
-      "currentName": "Ramaria formosa",
-      "currentAuthority": "(Pers.) Quél. 1888"
+      "authority": "(R.H. Petersen) Franchi & M. Marchetti 2020"
     },
     {
       "genus": "Ramaria",
@@ -2313,9 +2301,7 @@
       "species": "cyanoxantha f. peltereaui",
       "fullName": "Russula cyanoxantha f. peltereaui",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
-      "authority": "Singer 1926",
-      "currentName": "Russula cyanoxantha",
-      "currentAuthority": "(Schaeff.) Fr. 1863"
+      "authority": "Singer 1926"
     },
     {
       "genus": "Russula",
@@ -2707,9 +2693,7 @@
       "species": "saponaceum var. squamosum",
       "fullName": "Tricholoma saponaceum var. squamosum",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
-      "authority": "(Cooke) Rea 1922",
-      "currentName": "Tricholoma saponaceum",
-      "currentAuthority": "(Fr.) P. Kumm. 1871"
+      "authority": "(Cooke) Rea 1922"
     },
     {
       "genus": "Tricholoma",
