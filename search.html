@@ -17,13 +17,28 @@
 
         <div class="search-section">
             <div class="tabs">
-                <button class="tab-button active" data-tab="genus-species">Ricerca per genere e specie</button>
-                <button class="tab-button" data-tab="free-search">Ricerca libera</button>
+                <button class="tab-button active" data-tab="free-search">Ricerca libera</button>
+                <button class="tab-button" data-tab="genus-species">Ricerca per genere e specie</button>
             </div>
 
             <div class="tab-content">
+                <!-- Free Search Tab -->
+                <div class="tab-pane active" id="free-search-pane">
+                    <form class="free-search-form" id="free-search-form">
+                        <div class="form-group">
+                            <div class="autocomplete-container">
+                                <input type="text" id="free-search-input"
+                                    placeholder="Inserisci genere, specie o qualsiasi taxon (es. Agaricus, sylvicola, Basidiomycota, Agaricales...)">
+                                <div class="autocomplete-list" id="autocomplete-list"></div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn-reset" id="free-reset-btn">Reset</button>
+                    </form>
+                </div>
+
                 <!-- Genus & Species Search Tab -->
-                <div class="tab-pane active" id="genus-species-pane">
+                <div class="tab-pane" id="genus-species-pane">
                     <form class="search-form" id="search-form">
                         <div class="form-group">
                             <label for="genus-select">Genere:</label>
@@ -40,21 +55,6 @@
                         </div>
 
                         <button type="button" class="btn-reset" id="reset-btn">Reset</button>
-                    </form>
-                </div>
-
-                <!-- Free Search Tab -->
-                <div class="tab-pane" id="free-search-pane">
-                    <form class="free-search-form" id="free-search-form">
-                        <div class="form-group">
-                            <div class="autocomplete-container">
-                                <input type="text" id="free-search-input"
-                                    placeholder="Inserisci genere, specie o qualsiasi taxon (es. Agaricus, sylvicola, Basidiomycota, Agaricales...)">
-                                <div class="autocomplete-list" id="autocomplete-list"></div>
-                            </div>
-                        </div>
-
-                        <button type="button" class="btn-reset" id="free-reset-btn">Reset</button>
                     </form>
                 </div>
             </div>
