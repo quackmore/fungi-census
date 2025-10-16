@@ -6,18 +6,50 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-09-15",
+      "collector": "Angelo Fraschina",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-08-04",
       "collector": "Fabio Locatelli",
       "locality": "Ripa, Gromo",
       "localityCoordinates": "45.976347, 9.928513",
       "habitat": "Abete rosso",
       "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-07-20",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.909548, 9.973256",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-06-23",
+      "collector": "Angelo Fraschina",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-06-21",
+      "collector": "Pierino Bigoni",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "04/08",
-    "raccoltaPiuTarda": "04/08",
+    "raccoltaPiuPrecoce": "21/06",
+    "raccoltaPiuTarda": "15/09",
     "campioniPerMese": [
       {
         "gen": 0
@@ -35,16 +67,16 @@
         "mag": 0
       },
       {
-        "giu": 0
+        "giu": 2
       },
       {
-        "lug": 0
+        "lug": 1
       },
       {
         "ago": 1
       },
       {
-        "set": 0
+        "set": 1
       },
       {
         "ott": 0
@@ -58,8 +90,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }

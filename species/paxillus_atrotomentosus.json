@@ -20,11 +20,19 @@
       "localityCoordinates": "45.93408, 10.00331",
       "habitat": "Bosco misto",
       "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-07-27",
+      "collector": "Pietro Centenari",
+      "locality": "Zenier, Rovetta",
+      "localityCoordinates": "45.898619, 9.984853",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "31/08",
+    "raccoltaPiuPrecoce": "27/07",
     "raccoltaPiuTarda": "04/09",
     "campioniPerMese": [
       {
@@ -46,7 +54,7 @@
         "giu": 0
       },
       {
-        "lug": 0
+        "lug": 1
       },
       {
         "ago": 1
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }
