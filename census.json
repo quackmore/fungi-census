@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-10-18T00:30:25.535Z",
-  "totalSpecies": 374,
+  "generatedAt": "2025-10-19T00:30:30.303Z",
+  "totalSpecies": 375,
   "species": [
     {
       "genus": "Abortiporus",
@@ -2028,6 +2028,13 @@
       "authority": "(Bull.) P. Karst. 1881",
       "currentName": "Fomitopsis betulina",
       "currentAuthority": "(Bull.) B.K. Cui, M.L. Han & Y.C. Dai 2016"
+    },
+    {
+      "genus": "Pleurotus",
+      "species": "dryinus",
+      "fullName": "Pleurotus dryinus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pleurotaceae",
+      "authority": "(Pers.) P. Kumm. 1871"
     },
     {
       "genus": "Pluteus",
