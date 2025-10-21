@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-10-20T00:30:25.623Z",
-  "totalSpecies": 375,
+  "generatedAt": "2025-10-21T00:30:40.783Z",
+  "totalSpecies": 379,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1886,6 +1886,13 @@
     },
     {
       "genus": "Mycena",
+      "species": "renati",
+      "fullName": "Mycena renati",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
+      "authority": "Quél. 1886"
+    },
+    {
+      "genus": "Mycena",
       "species": "rosea",
       "fullName": "Mycena rosea",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
@@ -2063,6 +2070,13 @@
       "fullName": "Pluteus romellii",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pluteaceae",
       "authority": "(Britzelm.) Lapl. 1894"
+    },
+    {
+      "genus": "Pluteus",
+      "species": "roseipes",
+      "fullName": "Pluteus roseipes",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pluteaceae",
+      "authority": "Höhn. 1902"
     },
     {
       "genus": "Porphyrellus",
@@ -2624,6 +2638,13 @@
       "authority": "(L.) Lambotte 1887"
     },
     {
+      "genus": "Tephrocybe",
+      "species": "rancida",
+      "fullName": "Tephrocybe rancida",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Lyophyllaceae",
+      "authority": "(Fr.) Donk 1962"
+    },
+    {
       "genus": "Thelephora",
       "species": "palmata",
       "fullName": "Thelephora palmata",
@@ -2666,6 +2687,15 @@
       "fullName": "Tricholoma inamoenum",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
       "authority": "(Fr.) Gillet 1874"
+    },
+    {
+      "genus": "Tricholoma",
+      "species": "myomyces",
+      "fullName": "Tricholoma myomyces",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
+      "authority": "(Pers.) J.E. Lange 1933",
+      "currentName": "Tricholoma terreum",
+      "currentAuthority": "(Schaeff.) P. Kumm. 1871"
     },
     {
       "genus": "Tricholoma",

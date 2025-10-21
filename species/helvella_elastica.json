@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-20",
+      "collector": "Pierino Bigoni",
+      "locality": "San Rocco, Clusone",
+      "localityCoordinates": "45.885311, 9.924656",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-10-09",
       "collector": "Pierino Bigoni",
       "locality": "Pineta della Selva, Clusone",
@@ -25,7 +33,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "30/08",
-    "raccoltaPiuTarda": "09/10",
+    "raccoltaPiuTarda": "20/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -55,7 +63,7 @@
         "set": 0
       },
       {
-        "ott": 1
+        "ott": 2
       },
       {
         "nov": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }
