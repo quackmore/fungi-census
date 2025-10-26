@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-24",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.909548, 9.973256",
+      "habitat": "Abete rosso",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2025-10-09",
       "collector": "Pierino Bigoni",
       "locality": "Pineta della Selva, Clusone",
@@ -89,7 +97,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "14/07",
-    "raccoltaPiuTarda": "09/10",
+    "raccoltaPiuTarda": "24/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -119,7 +127,7 @@
         "set": 4
       },
       {
-        "ott": 2
+        "ott": 3
       },
       {
         "nov": 0
@@ -130,8 +138,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 10,
-    "campioniRaccolti": 10,
+    "totaleCampioni": 11,
+    "campioniRaccolti": 11,
     "campioniExsiccata": 0
   }
 }
