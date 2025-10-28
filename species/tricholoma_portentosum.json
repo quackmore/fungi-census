@@ -1,7 +1,7 @@
 {
-  "nomeCompleto": "Stropharia aeruginosa",
-  "autore": "(Curtis) Quél. 1872",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+  "nomeCompleto": "Tricholoma portentosum",
+  "autore": "(Fr.) Quél. 1873",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
@@ -12,27 +12,11 @@
       "localityCoordinates": "45.882983, 9.918480",
       "habitat": "Bosco misto",
       "determiner": "Pierino Bigoni"
-    },
-    {
-      "collectionDate": "2025-10-20",
-      "collector": "Angelo Fraschina",
-      "locality": "Spiazzi, Gromo",
-      "localityCoordinates": "45.970802, 9.963785",
-      "habitat": "Bosco misto abete bianco e abete rosso",
-      "determiner": "Pierino Bigoni"
-    },
-    {
-      "collectionDate": "2025-10-06",
-      "collector": "Fabio Locatelli",
-      "locality": "Schilpario",
-      "localityCoordinates": "46.009394, 10.154059",
-      "habitat": "Bosco misto",
-      "determiner": "Fabio Locatelli"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "06/10",
+    "raccoltaPiuPrecoce": "27/10",
     "raccoltaPiuTarda": "27/10",
     "campioniPerMese": [
       {
@@ -63,7 +47,7 @@
         "set": 0
       },
       {
-        "ott": 3
+        "ott": 1
       },
       {
         "nov": 0
@@ -74,8 +58,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
     "campioniExsiccata": 0
   }
 }

@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-27",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.882983, 9.918480",
+      "habitat": "Abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-10-08",
       "collector": "Fabio Locatelli",
       "locality": "Prat del sul, Clusone",
@@ -65,7 +73,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "14/09",
-    "raccoltaPiuTarda": "08/10",
+    "raccoltaPiuTarda": "27/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -95,7 +103,7 @@
         "set": 5
       },
       {
-        "ott": 2
+        "ott": 3
       },
       {
         "nov": 0
@@ -106,8 +114,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 7,
-    "campioniRaccolti": 7,
+    "totaleCampioni": 8,
+    "campioniRaccolti": 8,
     "campioniExsiccata": 0
   }
 }

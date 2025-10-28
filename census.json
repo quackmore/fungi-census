@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-10-27T01:30:27.860Z",
-  "totalSpecies": 379,
+  "generatedAt": "2025-10-28T01:30:36.093Z",
+  "totalSpecies": 388,
   "species": [
     {
       "genus": "Abortiporus",
@@ -137,6 +137,15 @@
       "fullName": "Amanita muscaria",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Amanitaceae",
       "authority": "(L.) Lam. 1783"
+    },
+    {
+      "genus": "Amanita",
+      "species": "ochraceomaculata",
+      "fullName": "Amanita ochraceomaculata",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Amanitaceae",
+      "authority": "Neville, Poumarat & Fraiture 2000",
+      "currentName": "Amanita brunneofuliginea",
+      "currentAuthority": "Zhu L. Yang 1997"
     },
     {
       "genus": "Amanita",
@@ -489,6 +498,13 @@
       "authority": "(Bull.) J. Schröt. 1888"
     },
     {
+      "genus": "Clavulinopsis",
+      "species": "corniculata",
+      "fullName": "Clavulinopsis corniculata",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Clavariaceae",
+      "authority": "(Schaeff.) Corner 1950"
+    },
+    {
       "genus": "Climacocystis",
       "species": "borealis",
       "fullName": "Climacocystis borealis",
@@ -521,6 +537,15 @@
       "authority": "Kühner & Romagn. 1954",
       "currentName": "Infundibulicybe costata",
       "currentAuthority": "(Kühner & Romagn.) Harmaja 2003"
+    },
+    {
+      "genus": "Clitocybe",
+      "species": "geotropa",
+      "fullName": "Clitocybe geotropa",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "authority": "(Bull.) Quél. 1872",
+      "currentName": "Infundibulicybe geotropa",
+      "currentAuthority": "(Bull.) Harmaja 2003"
     },
     {
       "genus": "Clitocybe",
@@ -1223,6 +1248,13 @@
       "authority": "(Schaeff.) P. Kumm. 1871"
     },
     {
+      "genus": "Hygrocybe",
+      "species": "punicea",
+      "fullName": "Hygrocybe punicea",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Fr.) P. Kumm. 1871"
+    },
+    {
       "genus": "Hygrophorus",
       "species": "agathosmus",
       "fullName": "Hygrophorus agathosmus",
@@ -1330,6 +1362,13 @@
       "fullName": "Inocybe fibrosa",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
       "authority": "(Sowerby) Gillet 1876"
+    },
+    {
+      "genus": "Inocybe",
+      "species": "geophylla",
+      "fullName": "Inocybe geophylla",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
+      "authority": "P. Kumm. 1871"
     },
     {
       "genus": "Inocybe",
@@ -1728,6 +1767,15 @@
       "authority": "Pers. 1794",
       "currentName": "Utraria umbrina",
       "currentAuthority": "(Pers.) R.L. Zhao & J.Xin Li 2024"
+    },
+    {
+      "genus": "Lyophyllum",
+      "species": "connatum",
+      "fullName": "Lyophyllum connatum",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "authority": "(Schumach.) Singer 1939",
+      "currentName": "Leucocybe connata",
+      "currentAuthority": "(Schumach.) Vizzini, P. Alvarado, G. Moreno & Consiglio 2015"
     },
     {
       "genus": "Lyophyllum",
@@ -2720,6 +2768,13 @@
     },
     {
       "genus": "Tricholoma",
+      "species": "portentosum",
+      "fullName": "Tricholoma portentosum",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
+      "authority": "(Fr.) Quél. 1873"
+    },
+    {
+      "genus": "Tricholoma",
       "species": "saponaceum",
       "fullName": "Tricholoma saponaceum",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
@@ -2769,6 +2824,13 @@
     },
     {
       "genus": "Tricholomopsis",
+      "species": "decora",
+      "fullName": "Tricholomopsis decora",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "authority": "(Fr.) Singer 1939"
+    },
+    {
+      "genus": "Tricholomopsis",
       "species": "rutilans",
       "fullName": "Tricholomopsis rutilans",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
@@ -2796,6 +2858,15 @@
       "fullName": "Volvariella murinella",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pluteaceae",
       "authority": "(Quél.) M.M. Moser ex Dennis, P.D. Orton & Hora 1960"
+    },
+    {
+      "genus": "Xerocomus",
+      "species": "armeniacus",
+      "fullName": "Xerocomus armeniacus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
+      "authority": "(Quél.) Quél. 1888",
+      "currentName": "Rheubarbariboletus armeniacus",
+      "currentAuthority": "(Quél.) Vizzini, Simonini & Gelardi 2015"
     },
     {
       "genus": "Xerocomus",

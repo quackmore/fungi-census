@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-27",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.882983, 9.918480",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-10-06",
       "collector": "Fabio Tresoldi",
       "locality": "Monte Pora, Castione della Presolana",
@@ -41,7 +49,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "21/07",
-    "raccoltaPiuTarda": "06/10",
+    "raccoltaPiuTarda": "27/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -71,7 +79,7 @@
         "set": 1
       },
       {
-        "ott": 1
+        "ott": 2
       },
       {
         "nov": 0
@@ -82,8 +90,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }
