@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-10-30",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.882983, 9.918480",
+      "habitat": "Pino abete e larice",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-10-06",
       "collector": "Pietro Centenari",
       "locality": "Blum, Rovetta",
@@ -73,7 +81,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "01/08",
-    "raccoltaPiuTarda": "06/10",
+    "raccoltaPiuTarda": "30/10",
     "campioniPerMese": [
       {
         "gen": 0
@@ -103,7 +111,7 @@
         "set": 4
       },
       {
-        "ott": 2
+        "ott": 3
       },
       {
         "nov": 0
@@ -114,8 +122,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 8,
-    "campioniRaccolti": 8,
+    "totaleCampioni": 9,
+    "campioniRaccolti": 9,
     "campioniExsiccata": 0
   }
 }

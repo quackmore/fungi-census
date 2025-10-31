@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-10-29T09:14:38.196Z",
-  "totalSpecies": 388,
+  "generatedAt": "2025-10-31T01:32:30.417Z",
+  "totalSpecies": 390,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1095,6 +1095,13 @@
       "authority": "(L.) F.H. Wigg. 1780"
     },
     {
+      "genus": "Galerina",
+      "species": "stylifera",
+      "fullName": "Galerina stylifera",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hymenogastraceae",
+      "authority": "(G.F. Atk.) A.H. Sm. & Singer 1958"
+    },
+    {
       "genus": "Ganoderma",
       "species": "adspersum",
       "fullName": "Ganoderma adspersum",
@@ -2053,6 +2060,13 @@
       "authority": "(Fr.) Singer 1951",
       "currentName": "Pyrrhulomyces astragalinus",
       "currentAuthority": "(Fr.) E.J. Tian & Matheny 2020"
+    },
+    {
+      "genus": "Pholiota",
+      "species": "lenta",
+      "fullName": "Pholiota lenta",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Pers.) Singer 1951"
     },
     {
       "genus": "Pholiota",
