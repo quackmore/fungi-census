@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-10-31T01:32:30.417Z",
-  "totalSpecies": 390,
+  "generatedAt": "2025-11-01T01:32:38.079Z",
+  "totalSpecies": 392,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1146,6 +1146,13 @@
       "authority": "(Schaeff.) Fr. 1838"
     },
     {
+      "genus": "Gomphus",
+      "species": "clavatus",
+      "fullName": "Gomphus clavatus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Gomphales > famiglia: Gomphaceae",
+      "authority": "(Pers.) Gray 1821"
+    },
+    {
       "genus": "Gymnopus",
       "species": "hariolorum",
       "fullName": "Gymnopus hariolorum",
@@ -2104,6 +2111,13 @@
       "fullName": "Pleurotus dryinus",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pleurotaceae",
       "authority": "(Pers.) P. Kumm. 1871"
+    },
+    {
+      "genus": "Pleurotus",
+      "species": "ostreatus",
+      "fullName": "Pleurotus ostreatus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pleurotaceae",
+      "authority": "(Jacq.) P. Kumm. 1871"
     },
     {
       "genus": "Pluteus",
