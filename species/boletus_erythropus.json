@@ -6,6 +6,14 @@
   "autoreCorrente": "(Pers.) C. Hahn 2015",
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-11-01",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, parco avventura",
+      "localityCoordinates": "",
+      "habitat": "Bosco misto pino abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-10-06",
       "collector": "Fabio Locatelli",
       "locality": "Schilpario",
@@ -65,7 +73,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "09/06",
-    "raccoltaPiuTarda": "06/10",
+    "raccoltaPiuTarda": "01/11",
     "campioniPerMese": [
       {
         "gen": 0
@@ -98,7 +106,7 @@
         "ott": 1
       },
       {
-        "nov": 0
+        "nov": 1
       },
       {
         "dic": 0
@@ -106,8 +114,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 7,
-    "campioniRaccolti": 7,
+    "totaleCampioni": 8,
+    "campioniRaccolti": 8,
     "campioniExsiccata": 0
   }
 }

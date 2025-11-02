@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-11-01T09:29:37.594Z",
-  "totalSpecies": 392,
+  "generatedAt": "2025-11-02T01:32:56.166Z",
+  "totalSpecies": 395,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1074,6 +1074,13 @@
       "authority": "Bas 1983"
     },
     {
+      "genus": "Flammulina",
+      "species": "velutipes",
+      "fullName": "Flammulina velutipes",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
+      "authority": "(Curtis) Singer 1951"
+    },
+    {
       "genus": "Fomes",
       "species": "fomentarius",
       "fullName": "Fomes fomentarius",
@@ -2121,6 +2128,13 @@
     },
     {
       "genus": "Pluteus",
+      "species": "atromarginatus",
+      "fullName": "Pluteus atromarginatus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pluteaceae",
+      "authority": "(Konrad) Kühner 1935"
+    },
+    {
+      "genus": "Pluteus",
       "species": "cervinus",
       "fullName": "Pluteus cervinus",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pluteaceae",
@@ -2178,6 +2192,13 @@
       "authority": "(Fr.) Maire 1937",
       "currentName": "Candolleomyces candolleanus",
       "currentAuthority": "(Fr.) D. Wächt. & A. Melzer 2020"
+    },
+    {
+      "genus": "Psathyrella",
+      "species": "corrugis",
+      "fullName": "Psathyrella corrugis",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Psathyrellaceae",
+      "authority": "(Pers.) Konrad & Maubl. 1949"
     },
     {
       "genus": "Psathyrella",

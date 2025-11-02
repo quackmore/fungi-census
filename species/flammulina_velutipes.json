@@ -1,30 +1,22 @@
 {
-  "nomeCompleto": "Tricholoma portentosum",
-  "autore": "(Fr.) Quél. 1873",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
+  "nomeCompleto": "Flammulina velutipes",
+  "autore": "(Curtis) Singer 1951",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2025-11-01",
       "collector": "Pierino Bigoni",
-      "locality": "Pineta della Selva, parco avventura",
+      "locality": "Pineta della Selva, Clusone loc. Conigliera",
       "localityCoordinates": "",
-      "habitat": "Bosco misto pino abete e latifoglie",
-      "determiner": "Pierino Bigoni"
-    },
-    {
-      "collectionDate": "2025-10-27",
-      "collector": "Pierino Bigoni",
-      "locality": "Pineta della Selva, Clusone",
-      "localityCoordinates": "45.882983, 9.918480",
-      "habitat": "Bosco misto",
+      "habitat": "Ceppaia di latifoglie",
       "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "27/10",
+    "raccoltaPiuPrecoce": "01/11",
     "raccoltaPiuTarda": "01/11",
     "campioniPerMese": [
       {
@@ -55,7 +47,7 @@
         "set": 0
       },
       {
-        "ott": 1
+        "ott": 0
       },
       {
         "nov": 1
@@ -66,8 +58,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
     "campioniExsiccata": 0
   }
 }
