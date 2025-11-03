@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-03T01:32:27.100Z",
+  "generatedAt": "2025-11-03T08:58:33.496Z",
   "totalSpecies": 395,
   "species": [
     {
@@ -223,7 +223,7 @@
       "genus": "Bisporella",
       "species": "citrina",
       "fullName": "Bisporella citrina",
-      "lineage": "regno: Fungi > pylum: Ascomycota > classe: Leotiomycetes > ordine: Rhytismatales > famiglia: Pezizellaceae",
+      "lineage": "regno: Fungi > pylum: Ascomycota > classe: Leotiomycetes > ordine: Helotiales > famiglia: Pezizellaceae",
       "authority": "(Batsch) Korf & S.E. Carp. 1974",
       "currentName": "Calycina citrina",
       "currentAuthority": "(Hedw.) Gray 1821"
