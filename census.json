@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-11-03T08:58:33.496Z",
-  "totalSpecies": 395,
+  "generatedAt": "2025-11-04T01:32:45.499Z",
+  "totalSpecies": 397,
   "species": [
     {
       "genus": "Abortiporus",
@@ -445,6 +445,13 @@
       "fullName": "Chlorociboria aeruginascens",
       "lineage": "regno: Fungi > pylum: Ascomycota > classe: Leotiomycetes > ordine: Helotiales > famiglia: Chlorociboriaceae",
       "authority": "(Nyl.) Kanouse 1948"
+    },
+    {
+      "genus": "Chroogomphus",
+      "species": "rutilus",
+      "fullName": "Chroogomphus rutilus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Gomphidiaceae",
+      "authority": "(Schaeff.) O.K. Mill. 1964"
     },
     {
       "genus": "Chrysomyxa",
@@ -2712,6 +2719,13 @@
       "fullName": "Suillus placidus",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Suillaceae",
       "authority": "(Bonord.) Singer 1945"
+    },
+    {
+      "genus": "Suillus",
+      "species": "plorans",
+      "fullName": "Suillus plorans",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
+      "authority": "(Rolland) Kuntze 1898"
     },
     {
       "genus": "Suillus",
