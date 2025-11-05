@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-11-04T01:32:45.499Z",
-  "totalSpecies": 397,
+  "generatedAt": "2025-11-05T01:32:39.093Z",
+  "totalSpecies": 400,
   "species": [
     {
       "genus": "Abortiporus",
@@ -736,7 +736,7 @@
       "species": "bolaris",
       "fullName": "Cortinarius bolaris",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
-      "authority": "(Pers.) Zawadzki 1835"
+      "authority": "(Pers.) Zaw. 1835"
     },
     {
       "genus": "Cortinarius",
@@ -829,6 +829,15 @@
       "authority": "Britzelm. 1885",
       "currentName": "Calonarius odorifer",
       "currentAuthority": "(Britzelm.) Niskanen & Liimat. 2022"
+    },
+    {
+      "genus": "Cortinarius",
+      "species": "orellanoides var. speciosissimus",
+      "fullName": "Cortinarius orellanoides var. speciosissimus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
+      "authority": "Consiglio, D. Antonini & M. Antonini 2003",
+      "currentName": "Cortinarius rubellus",
+      "currentAuthority": "Cooke 1887"
     },
     {
       "genus": "Cortinarius",
@@ -1232,6 +1241,15 @@
       "authority": "Niemelä & Korhonen 1998"
     },
     {
+      "genus": "Hirneola",
+      "species": "auricula-judae",
+      "fullName": "Hirneola auricula-judae",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales > famiglia: Auriculariaceae",
+      "authority": "(Bull.) Berk. 1860",
+      "currentName": "Auricularia auricula-judae",
+      "currentAuthority": "(Bull.) Quél. 1886"
+    },
+    {
       "genus": "Hydnellum",
       "species": "peckii",
       "fullName": "Hydnellum peckii",
@@ -1272,14 +1290,14 @@
       "genus": "Hygrocybe",
       "species": "conica",
       "fullName": "Hygrocybe conica",
-      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrocybaceae",
       "authority": "(Schaeff.) P. Kumm. 1871"
     },
     {
       "genus": "Hygrocybe",
       "species": "punicea",
       "fullName": "Hygrocybe punicea",
-      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrocybaceae",
       "authority": "(Fr.) P. Kumm. 1871"
     },
     {
@@ -2364,6 +2382,13 @@
       "authority": "Kučera 1927",
       "currentName": "Russula caerulea",
       "currentAuthority": "Fr. 1838"
+    },
+    {
+      "genus": "Russula",
+      "species": "amethystina",
+      "fullName": "Russula amethystina",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+      "authority": "Quél. 1898"
     },
     {
       "genus": "Russula",

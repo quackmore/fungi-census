@@ -6,10 +6,18 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-11-03",
+      "collector": "Angelo Ballabeni",
+      "locality": "Percorso vita, Rovetta",
+      "localityCoordinates": "45.89368, 9.97672",
+      "habitat": "Bosco misto",
+      "determiner": "Angelo Ballabeni"
+    },
+    {
       "collectionDate": "2025-11-01",
       "collector": "Pierino Bigoni",
-      "locality": "Pineta della Selva, Clusone loc. Conigliera",
-      "localityCoordinates": "",
+      "locality": "loc. Conigliera, Pineta della Selva, Clusone",
+      "localityCoordinates": "45.884945, 9.921545",
       "habitat": "Ceppaia di sambuco nero",
       "determiner": "Pierino Bigoni"
     },
@@ -25,7 +33,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "09/10",
-    "raccoltaPiuTarda": "01/11",
+    "raccoltaPiuTarda": "03/11",
     "campioniPerMese": [
       {
         "gen": 0
@@ -58,7 +66,7 @@
         "ott": 1
       },
       {
-        "nov": 1
+        "nov": 2
       },
       {
         "dic": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }

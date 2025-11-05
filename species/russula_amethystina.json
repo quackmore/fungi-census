@@ -1,7 +1,7 @@
 {
-  "nomeCompleto": "Chroogomphus rutilus",
-  "autore": "(Schaeff.) O.K. Mill. 1964",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Gomphidiaceae",
+  "nomeCompleto": "Russula amethystina",
+  "autore": "Quél. 1898",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
@@ -10,7 +10,7 @@
       "collector": "Angelo Ballabeni",
       "locality": "Percorso vita, Rovetta",
       "localityCoordinates": "45.89368, 9.97672",
-      "habitat": "Pino",
+      "habitat": "Bosco misto",
       "determiner": "Angelo Ballabeni"
     }
   ],

@@ -1,9 +1,9 @@
 {
-  "nomeCompleto": "Clavulina rugosa",
-  "autore": "(Bull.) J. Schröt. 1888",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Cantharellales > famiglia: Hydnaceae",
-  "nomeCorrente": null,
-  "autoreCorrente": null,
+  "nomeCompleto": "Hirneola auricula-judae",
+  "autore": "(Bull.) Berk. 1860",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales > famiglia: Auriculariaceae",
+  "nomeCorrente": "Auricularia auricula-judae",
+  "autoreCorrente": "(Bull.) Quél. 1886",
   "campioniRaccolti": [
     {
       "collectionDate": "2025-11-03",
@@ -14,33 +14,25 @@
       "determiner": "Angelo Ballabeni"
     },
     {
+      "collectionDate": "2025-11-01",
+      "collector": "Pierino Bigoni",
+      "locality": "loc. Conigliera, Pineta della Selva, Clusone",
+      "localityCoordinates": "45.884945, 9.921545",
+      "habitat": "Ceppaia di sambuco nero",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-10-09",
       "collector": "Pierino Bigoni",
       "locality": "Pineta della Selva, Clusone",
       "localityCoordinates": "45.882983, 9.918480",
       "habitat": "Bosco misto abete e latifoglie",
       "determiner": "Pierino Bigoni"
-    },
-    {
-      "collectionDate": "2025-09-17",
-      "collector": "Pierino Bigoni",
-      "locality": "Zenier, Rovetta",
-      "localityCoordinates": "45.898619, 9.984853",
-      "habitat": "Bosco misto",
-      "determiner": "Pierino Bigoni"
-    },
-    {
-      "collectionDate": "2025-09-15",
-      "collector": "Pierino Bigoni",
-      "locality": "Zenier, Rovetta",
-      "localityCoordinates": "45.898619, 9.984853",
-      "habitat": "Bordo sentiero",
-      "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "15/09",
+    "raccoltaPiuPrecoce": "09/10",
     "raccoltaPiuTarda": "03/11",
     "campioniPerMese": [
       {
@@ -68,13 +60,13 @@
         "ago": 0
       },
       {
-        "set": 2
+        "set": 0
       },
       {
         "ott": 1
       },
       {
-        "nov": 1
+        "nov": 2
       },
       {
         "dic": 0
@@ -82,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }
