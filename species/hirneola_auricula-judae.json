@@ -6,6 +6,14 @@
   "autoreCorrente": "(Bull.) Quél. 1886",
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-11-05",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva Clusone",
+      "localityCoordinates": "",
+      "habitat": "Ceppaia di sambuco nero",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-11-03",
       "collector": "Angelo Ballabeni",
       "locality": "Percorso vita, Rovetta",
@@ -33,7 +41,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "09/10",
-    "raccoltaPiuTarda": "03/11",
+    "raccoltaPiuTarda": "05/11",
     "campioniPerMese": [
       {
         "gen": 0
@@ -66,7 +74,7 @@
         "ott": 1
       },
       {
-        "nov": 2
+        "nov": 3
       },
       {
         "dic": 0
@@ -74,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }

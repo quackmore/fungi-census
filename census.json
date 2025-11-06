@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-11-05T01:32:39.093Z",
-  "totalSpecies": 400,
+  "generatedAt": "2025-11-06T01:32:51.207Z",
+  "totalSpecies": 403,
   "species": [
     {
       "genus": "Abortiporus",
@@ -204,6 +204,13 @@
       "fullName": "Auricularia auricula-judae",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales > famiglia: Auriculariaceae",
       "authority": "(Bull.) Quél. 1886"
+    },
+    {
+      "genus": "Auricularia",
+      "species": "mesenterica",
+      "fullName": "Auricularia mesenterica",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales > famiglia: Auriculariaceae",
+      "authority": "(Dicks.) Pers. 1822"
     },
     {
       "genus": "Auriscalpium",
@@ -1156,6 +1163,13 @@
     },
     {
       "genus": "Gloeophyllum",
+      "species": "odoratum",
+      "fullName": "Gloeophyllum odoratum",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Gloeophyllales > famiglia: Gloeophyllaceae",
+      "authority": "(Wulfen) Imazeki 1943"
+    },
+    {
+      "genus": "Gloeophyllum",
       "species": "sepiarium",
       "fullName": "Gloeophyllum sepiarium",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Gloeophyllales > famiglia: Gloeophyllaceae",
@@ -1448,6 +1462,13 @@
     },
     {
       "genus": "Laccaria",
+      "species": "bicolor",
+      "fullName": "Laccaria bicolor",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hydnangiaceae",
+      "authority": "(Maire) P.D. Orton 1960"
+    },
+    {
+      "genus": "Laccaria",
       "species": "laccata",
       "fullName": "Laccaria laccata",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hydnangiaceae",
@@ -1695,7 +1716,7 @@
       "genus": "Lepista",
       "species": "flaccida",
       "fullName": "Lepista flaccida",
-      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Paralepistaceae",
       "authority": "(Sowerby) Pat. 1887",
       "currentName": "Paralepista flaccida",
       "currentAuthority": "(Sowerby) Vizzini 2012"
@@ -1711,7 +1732,7 @@
       "genus": "Lepista",
       "species": "inversa",
       "fullName": "Lepista inversa",
-      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Paralepistaceae",
       "authority": "(Scop.) Pat. 1887",
       "currentName": "Paralepista flaccida",
       "currentAuthority": "(Sowerby) Vizzini 2012"
@@ -1912,28 +1933,28 @@
       "genus": "Melanoleuca",
       "species": "brevipes",
       "fullName": "Melanoleuca brevipes",
-      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Melanoleucaceae",
       "authority": "(Bull.) Pat. 1900"
     },
     {
       "genus": "Melanoleuca",
       "species": "graminicola",
       "fullName": "Melanoleuca graminicola",
-      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Melanoleucaceae",
       "authority": "Kühner & Maire 1934"
     },
     {
       "genus": "Melanoleuca",
       "species": "melaleuca",
       "fullName": "Melanoleuca melaleuca",
-      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Melanoleucaceae",
       "authority": "(Pers.) Murrill 1911"
     },
     {
       "genus": "Melanoleuca",
       "species": "subalpina",
       "fullName": "Melanoleuca subalpina",
-      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Melanoleucaceae",
       "authority": "(Britzelm.) Bresinsky & Stangl 1976"
     },
     {
@@ -1962,7 +1983,9 @@
       "species": "pearsoniana",
       "fullName": "Mycena pearsoniana",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
-      "authority": "Dennis ex Singer 1959"
+      "authority": "Dennis ex Singer 1959",
+      "currentName": "Prunulus pearsonianus",
+      "currentAuthority": "(Dennis ex Singer) Kun L. Yang, Jia Y. Lin & Zhu L. Yang 2025"
     },
     {
       "genus": "Mycena",

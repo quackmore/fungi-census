@@ -1,23 +1,23 @@
 {
-  "nomeCompleto": "Melanoleuca melaleuca",
-  "autore": "(Pers.) Murrill 1911",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Melanoleucaceae",
+  "nomeCompleto": "Auricularia mesenterica",
+  "autore": "(Dicks.) Pers. 1822",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales > famiglia: Auriculariaceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
-      "collectionDate": "2025-09-14",
-      "collector": "Fabio Rossi",
-      "locality": "Piazza di Golla, Premolo",
-      "localityCoordinates": "45.885467, 9.846477",
-      "habitat": "Bosco misto",
-      "determiner": "Renato Depressi"
+      "collectionDate": "2025-11-05",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva Clusone",
+      "localityCoordinates": "",
+      "habitat": "Ceppaia di latifoglie",
+      "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "14/09",
-    "raccoltaPiuTarda": "14/09",
+    "raccoltaPiuPrecoce": "05/11",
+    "raccoltaPiuTarda": "05/11",
     "campioniPerMese": [
       {
         "gen": 0
@@ -44,13 +44,13 @@
         "ago": 0
       },
       {
-        "set": 1
+        "set": 0
       },
       {
         "ott": 0
       },
       {
-        "nov": 0
+        "nov": 1
       },
       {
         "dic": 0

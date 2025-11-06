@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-11-05",
+      "collector": "Pierino Bigoni",
+      "locality": "S.Rocco",
+      "localityCoordinates": "45.085972, 11.588573",
+      "habitat": "Prato",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-09-17",
       "collector": "Pierino Bigoni",
       "locality": "Zenier, Rovetta",
@@ -25,7 +33,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "15/09",
-    "raccoltaPiuTarda": "17/09",
+    "raccoltaPiuTarda": "05/11",
     "campioniPerMese": [
       {
         "gen": 0
@@ -58,7 +66,7 @@
         "ott": 0
       },
       {
-        "nov": 0
+        "nov": 1
       },
       {
         "dic": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }
