@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-06T01:32:51.207Z",
+  "generatedAt": "2025-11-07T01:32:37.947Z",
   "totalSpecies": 403,
   "species": [
     {
@@ -2967,7 +2967,7 @@
       "genus": "Volvariella",
       "species": "murinella",
       "fullName": "Volvariella murinella",
-      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pluteaceae",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Volvariellaceae",
       "authority": "(Quél.) M.M. Moser ex Dennis, P.D. Orton & Hora 1960"
     },
     {
