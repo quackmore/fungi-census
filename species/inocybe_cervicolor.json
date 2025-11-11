@@ -6,6 +6,14 @@
   "autoreCorrente": "(Pers.) Matheny & Esteve-Rav. 2019",
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-11-10",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.882983, 9.918480",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-09-17",
       "collector": "Pierino Bigoni",
       "locality": "Zenier, Rovetta",
@@ -25,7 +33,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "31/08",
-    "raccoltaPiuTarda": "17/09",
+    "raccoltaPiuTarda": "10/11",
     "campioniPerMese": [
       {
         "gen": 0
@@ -58,7 +66,7 @@
         "ott": 0
       },
       {
-        "nov": 0
+        "nov": 1
       },
       {
         "dic": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }

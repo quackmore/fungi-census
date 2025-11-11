@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-11-07T01:32:37.947Z",
-  "totalSpecies": 403,
+  "generatedAt": "2025-11-11T01:32:40.352Z",
+  "totalSpecies": 404,
   "species": [
     {
       "genus": "Abortiporus",
@@ -2551,6 +2551,15 @@
       "authority": "Fr. 1836",
       "currentName": "Russula rosea",
       "currentAuthority": "Pers. 1796"
+    },
+    {
+      "genus": "Russula",
+      "species": "lutea",
+      "fullName": "Russula lutea",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+      "authority": "(Huds.) Gray 1821",
+      "currentName": "Russula risigallina",
+      "currentAuthority": "(Batsch) Sacc. 1915"
     },
     {
       "genus": "Russula",

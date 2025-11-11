@@ -1,9 +1,9 @@
 {
-  "nomeCompleto": "Lyophyllum connatum",
-  "autore": "(Schumach.) Singer 1939",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
-  "nomeCorrente": "Leucocybe connata",
-  "autoreCorrente": "(Schumach.) Vizzini, P. Alvarado, G. Moreno & Consiglio 2015",
+  "nomeCompleto": "Russula lutea",
+  "autore": "(Huds.) Gray 1821",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+  "nomeCorrente": "Russula risigallina",
+  "autoreCorrente": "(Batsch) Sacc. 1915",
   "campioniRaccolti": [
     {
       "collectionDate": "2025-11-10",
@@ -11,20 +11,12 @@
       "locality": "Spiazzi, Gromo",
       "localityCoordinates": "45.970802, 9.963785",
       "habitat": "Bosco misto abete bianco e abete rosso",
-      "determiner": "Pierino Bigoni"
-    },
-    {
-      "collectionDate": "2025-10-27",
-      "collector": "Pierino Bigoni",
-      "locality": "Pineta della Selva, Clusone",
-      "localityCoordinates": "45.882983, 9.918480",
-      "habitat": "Bosco misto",
-      "determiner": "Pierino Bigoni"
+      "determiner": "Angelo Ballabeni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "27/10",
+    "raccoltaPiuPrecoce": "10/11",
     "raccoltaPiuTarda": "10/11",
     "campioniPerMese": [
       {
@@ -55,7 +47,7 @@
         "set": 0
       },
       {
-        "ott": 1
+        "ott": 0
       },
       {
         "nov": 1
@@ -66,8 +58,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
     "campioniExsiccata": 0
   }
 }
