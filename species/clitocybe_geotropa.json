@@ -6,6 +6,14 @@
   "autoreCorrente": "(Bull.) Harmaja 2003",
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-11-14",
+      "collector": "Pierino Bigoni",
+      "locality": "Camài Oltressenda Alta",
+      "localityCoordinates": "45.917853, 9.950088",
+      "habitat": "Pascolo",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-11-10",
       "collector": "Antonio Guana",
       "locality": "Ave, Ardesio",
@@ -25,7 +33,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "27/10",
-    "raccoltaPiuTarda": "10/11",
+    "raccoltaPiuTarda": "14/11",
     "campioniPerMese": [
       {
         "gen": 0
@@ -58,7 +66,7 @@
         "ott": 1
       },
       {
-        "nov": 1
+        "nov": 2
       },
       {
         "dic": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }
