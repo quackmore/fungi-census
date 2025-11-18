@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-11-16T01:31:58.743Z",
-  "totalSpecies": 404,
+  "generatedAt": "2025-11-18T01:32:00.480Z",
+  "totalSpecies": 412,
   "species": [
     {
       "genus": "Abortiporus",
@@ -536,6 +536,15 @@
     },
     {
       "genus": "Clitocybe",
+      "species": "cerussata",
+      "fullName": "Clitocybe cerussata",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Clitocybaceae",
+      "authority": "(Fr.) P. Kumm. 1871",
+      "currentName": "Collybia phyllophila",
+      "currentAuthority": "(Pers.) Z.M. He & Zhu L. Yang 2023"
+    },
+    {
+      "genus": "Clitocybe",
       "species": "clavipes",
       "fullName": "Clitocybe clavipes",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
@@ -871,6 +880,15 @@
     },
     {
       "genus": "Cortinarius",
+      "species": "renidens",
+      "fullName": "Cortinarius renidens",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
+      "authority": "Fr. 1838",
+      "currentName": "Hygronarius renidens",
+      "currentAuthority": "(Fr.) Niskanen & Liimat. 2022"
+    },
+    {
+      "genus": "Cortinarius",
       "species": "rubellus",
       "fullName": "Cortinarius rubellus",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
@@ -907,6 +925,13 @@
       "authority": "(Bon) Melot 1987",
       "currentName": "Calonarius meinhardii",
       "currentAuthority": "(Bon) Niskanen & Liimat. 2022"
+    },
+    {
+      "genus": "Cortinarius",
+      "species": "subtortus",
+      "fullName": "Cortinarius subtortus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
+      "authority": "(Pers.) Zaw. 1835"
     },
     {
       "genus": "Cortinarius",
@@ -1019,6 +1044,13 @@
       "fullName": "Daedaleopsis confragosa",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
       "authority": "(Bolton) J. Schröt. 1888"
+    },
+    {
+      "genus": "Daedaleopsis",
+      "species": "tricolor",
+      "fullName": "Daedaleopsis tricolor",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+      "authority": "(Bull.) Bondartsev & Singer 1941"
     },
     {
       "genus": "Delicatula",
@@ -1399,6 +1431,22 @@
       "authority": "(Fr.) Quél. 1872"
     },
     {
+      "genus": "Hypoxylon",
+      "species": "fragiforme",
+      "fullName": "Hypoxylon fragiforme",
+      "lineage": "regno: Fungi > pylum: Ascomycota > classe: Sordariomycetes > ordine: Xylariales > famiglia: Hypoxylaceae",
+      "authority": "(Pers.) J. Kickx f. 1835"
+    },
+    {
+      "genus": "Inocybe",
+      "species": "calamistrata",
+      "fullName": "Inocybe calamistrata",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
+      "authority": "(Fr.) Gillet 1876",
+      "currentName": "Inosperma calamistratum",
+      "currentAuthority": "(Fr.) Matheny & Esteve-Rav. 2019"
+    },
+    {
       "genus": "Inocybe",
       "species": "cervicolor",
       "fullName": "Inocybe cervicolor",
@@ -1533,6 +1581,13 @@
       "fullName": "Lactarius pallidus",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
       "authority": "Pers. 1797"
+    },
+    {
+      "genus": "Lactarius",
+      "species": "picinus",
+      "fullName": "Lactarius picinus",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+      "authority": "Fr. 1838"
     },
     {
       "genus": "Lactarius",
@@ -1975,6 +2030,13 @@
       "genus": "Mycena",
       "species": "epipterygia",
       "fullName": "Mycena epipterygia",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
+      "authority": "(Scop.) Gray 1821"
+    },
+    {
+      "genus": "Mycena",
+      "species": "galericulata",
+      "fullName": "Mycena galericulata",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
       "authority": "(Scop.) Gray 1821"
     },

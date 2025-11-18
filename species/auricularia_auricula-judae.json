@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-11-17",
+      "collector": "Antonio Guana",
+      "locality": "Ave, Ardesio",
+      "localityCoordinates": "45.945285, 9.963584",
+      "habitat": "A terra su legno marcescente bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-11-05",
       "collector": "Pierino Bigoni",
       "locality": "Pineta della Selva, Clusone",
@@ -41,7 +49,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "09/10",
-    "raccoltaPiuTarda": "05/11",
+    "raccoltaPiuTarda": "17/11",
     "campioniPerMese": [
       {
         "gen": 0
@@ -74,7 +82,7 @@
         "ott": 1
       },
       {
-        "nov": 3
+        "nov": 4
       },
       {
         "dic": 0
@@ -82,8 +90,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }

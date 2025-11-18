@@ -6,6 +6,14 @@
   "autoreCorrente": "(Pers.) Harmaja 1988",
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-11-17",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.882983, 9.918480",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-09-17",
       "collector": "Pierino Bigoni",
       "locality": "Zenier, Rovetta",
@@ -49,7 +57,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "14/07",
-    "raccoltaPiuTarda": "17/09",
+    "raccoltaPiuTarda": "17/11",
     "campioniPerMese": [
       {
         "gen": 0
@@ -82,7 +90,7 @@
         "ott": 0
       },
       {
-        "nov": 0
+        "nov": 1
       },
       {
         "dic": 0
@@ -90,8 +98,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 5,
-    "campioniRaccolti": 5,
+    "totaleCampioni": 6,
+    "campioniRaccolti": 6,
     "campioniExsiccata": 0
   }
 }
