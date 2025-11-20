@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-11-20T11:18:07.299Z",
-  "totalSpecies": 413,
+  "generatedAt": "2025-11-20T12:16:40.592Z",
+  "totalSpecies": 415,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1841,6 +1841,13 @@
       "currentAuthority": "(Schumach.) Z.M. He & Zhu L. Yang 2023"
     },
     {
+      "genus": "Leratiomyces",
+      "species": "ceres",
+      "fullName": "Leratiomyces ceres",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Cooke & Massee) Spooner & Bridge 2008"
+    },
+    {
       "genus": "Leucoagaricus",
       "species": "leucothites",
       "fullName": "Leucoagaricus leucothites",
@@ -2801,6 +2808,15 @@
       "fullName": "Stropharia aeruginosa",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
       "authority": "(Curtis) Quél. 1872"
+    },
+    {
+      "genus": "Stropharia",
+      "species": "aurantiaca",
+      "fullName": "Stropharia aurantiaca",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hymenogastraceae",
+      "authority": "(Cooke) M. Imai 1938",
+      "currentName": "Psilocybe aurantiaca",
+      "currentAuthority": "(Cooke) Noordel. 1995"
     },
     {
       "genus": "Stropharia",
