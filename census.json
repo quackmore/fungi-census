@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-11-18T15:52:57.316Z",
-  "totalSpecies": 412,
+  "generatedAt": "2025-11-20T11:18:07.299Z",
+  "totalSpecies": 413,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1134,6 +1134,13 @@
       "fullName": "Flammulina velutipes",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
       "authority": "(Curtis) Singer 1951"
+    },
+    {
+      "genus": "Flammulina",
+      "species": "velutipes var. lactea",
+      "fullName": "Flammulina velutipes var. lactea",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
+      "authority": "(Quél.) Bas 1983"
     },
     {
       "genus": "Fomes",

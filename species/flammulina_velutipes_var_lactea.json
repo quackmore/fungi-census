@@ -1,18 +1,10 @@
 {
-  "nomeCompleto": "Flammulina velutipes",
-  "autore": "(Curtis) Singer 1951",
+  "nomeCompleto": "Flammulina velutipes var. lactea",
+  "autore": "(Quél.) Bas 1983",
   "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
-    {
-      "collectionDate": "2025-11-20",
-      "collector": "Angelo Fraschina",
-      "locality": "Spiazzi, Gromo",
-      "localityCoordinates": "45.970802, 9.963785",
-      "habitat": "Ceppaia di latifoglie",
-      "determiner": "Pierino Bigoni"
-    },
     {
       "collectionDate": "2025-11-13",
       "collector": "Angelo Ballabeni",
@@ -20,20 +12,12 @@
       "localityCoordinates": "45.903911, 9.987838",
       "habitat": "Ceppaia di latifoglie",
       "determiner": "Angelo Ballabeni"
-    },
-    {
-      "collectionDate": "2025-11-01",
-      "collector": "Pierino Bigoni",
-      "locality": "loc. Conigliera, Pineta della Selva, Clusone",
-      "localityCoordinates": "45.884945, 9.921545",
-      "habitat": "Ceppaia di latifoglie",
-      "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "01/11",
-    "raccoltaPiuTarda": "20/11",
+    "raccoltaPiuPrecoce": "13/11",
+    "raccoltaPiuTarda": "13/11",
     "campioniPerMese": [
       {
         "gen": 0
@@ -66,7 +50,7 @@
         "ott": 0
       },
       {
-        "nov": 3
+        "nov": 1
       },
       {
         "dic": 0
@@ -74,8 +58,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
     "campioniExsiccata": 0
   }
 }
