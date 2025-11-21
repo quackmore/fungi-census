@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-20T12:16:40.592Z",
+  "generatedAt": "2025-11-21T01:31:54.363Z",
   "totalSpecies": 415,
   "species": [
     {
@@ -234,6 +234,13 @@
       "authority": "(Batsch) Korf & S.E. Carp. 1974",
       "currentName": "Calycina citrina",
       "currentAuthority": "(Hedw.) Gray 1821"
+    },
+    {
+      "genus": "Bjerkandera",
+      "species": "adusta",
+      "fullName": "Bjerkandera adusta",
+      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Phanerochaetaceae",
+      "authority": "(Willd.) P. Karst. 1879"
     },
     {
       "genus": "Bolbitius",
@@ -2808,15 +2815,6 @@
       "fullName": "Stropharia aeruginosa",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
       "authority": "(Curtis) Quél. 1872"
-    },
-    {
-      "genus": "Stropharia",
-      "species": "aurantiaca",
-      "fullName": "Stropharia aurantiaca",
-      "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hymenogastraceae",
-      "authority": "(Cooke) M. Imai 1938",
-      "currentName": "Psilocybe aurantiaca",
-      "currentAuthority": "(Cooke) Noordel. 1995"
     },
     {
       "genus": "Stropharia",

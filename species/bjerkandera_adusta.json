@@ -1,7 +1,7 @@
 {
-  "nomeCompleto": "Hypoxylon fragiforme",
-  "autore": "(Pers.) J. Kickx f. 1835",
-  "filogenesi": "regno: Fungi > pylum: Ascomycota > classe: Sordariomycetes > ordine: Xylariales > famiglia: Hypoxylaceae",
+  "nomeCompleto": "Bjerkandera adusta",
+  "autore": "(Willd.) P. Karst. 1879",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Phanerochaetaceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
@@ -12,19 +12,11 @@
       "localityCoordinates": "45.970802, 9.963785",
       "habitat": "Bosco misto abete bianco e abete rosso",
       "determiner": "Flavio Rossi"
-    },
-    {
-      "collectionDate": "2025-11-17",
-      "collector": "Pierino Bigoni",
-      "locality": "Pineta della Selva, Clusone",
-      "localityCoordinates": "45.882983, 9.918480",
-      "habitat": "Bosco misto",
-      "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "17/11",
+    "raccoltaPiuPrecoce": "20/11",
     "raccoltaPiuTarda": "20/11",
     "campioniPerMese": [
       {
@@ -58,7 +50,7 @@
         "ott": 0
       },
       {
-        "nov": 2
+        "nov": 1
       },
       {
         "dic": 0
@@ -66,8 +58,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
     "campioniExsiccata": 0
   }
 }
