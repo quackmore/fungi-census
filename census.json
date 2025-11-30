@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-11-28T08:34:21.933Z",
-  "totalSpecies": 416,
+  "generatedAt": "2025-11-30T01:32:11.089Z",
+  "totalSpecies": 417,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1830,6 +1830,13 @@
       "fullName": "Lepista panaeola",
       "lineage": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
       "authority": "(Fr.) P. Karst. 1879"
+    },
+    {
+      "genus": "Lepista",
+      "species": "panaeolus",
+      "fullName": "Lepista panaeolus",
+      "lineage": null,
+      "authority": "undefined undefined"
     },
     {
       "genus": "Lepista",
