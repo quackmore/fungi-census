@@ -20,6 +20,14 @@
       "localityCoordinates": "45.885467, 9.846477",
       "habitat": "Bosco misto",
       "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-14",
+      "collector": "Pierino Bigoni",
+      "locality": "M.Belloro",
+      "localityCoordinates": "44.303836, 8.478797",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
@@ -52,7 +60,7 @@
         "ago": 0
       },
       {
-        "set": 2
+        "set": 3
       },
       {
         "ott": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }

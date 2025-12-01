@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-11-27",
+      "collector": "Fabio Locatelli",
+      "locality": "Fino del monte",
+      "localityCoordinates": "45.890368, 9.992619",
+      "habitat": "Pino silvestre",
+      "determiner": "Fabio Locatelli"
+    },
+    {
       "collectionDate": "2025-11-10",
       "collector": "Pierino Bigoni",
       "locality": "Parco avventura in Pineta, Clusone",
@@ -33,7 +41,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "27/10",
-    "raccoltaPiuTarda": "10/11",
+    "raccoltaPiuTarda": "27/11",
     "campioniPerMese": [
       {
         "gen": 0
@@ -66,7 +74,7 @@
         "ott": 1
       },
       {
-        "nov": 2
+        "nov": 3
       },
       {
         "dic": 0
@@ -74,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }
