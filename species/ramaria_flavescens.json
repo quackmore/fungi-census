@@ -1,7 +1,7 @@
 {
   "nomeCompleto": "Ramaria flavescens",
   "autore": "(Schaeff.) R.H. Petersen 1974",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Gomphales > famiglia: Gomphaceae",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Gomphales > famiglia: Gomphaceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
@@ -19,7 +19,7 @@
       "locality": "Spiazzi, Gromo",
       "localityCoordinates": "45.970802, 9.963785",
       "habitat": "Bosco misto abete bianco e abete rosso",
-      "determiner": "da determinare"
+      "determiner": "Angelo Ballabeni"
     },
     {
       "collectionDate": "2025-06-09",

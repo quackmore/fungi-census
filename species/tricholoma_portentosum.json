@@ -1,7 +1,7 @@
 {
   "nomeCompleto": "Tricholoma portentosum",
   "autore": "(Fr.) Quél. 1873",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
@@ -19,7 +19,7 @@
       "locality": "Parco avventura in Pineta, Clusone",
       "localityCoordinates": "45.880916, 9.919919",
       "habitat": "Bosco misto abete e pino silvestre",
-      "determiner": "da determinare"
+      "determiner": "Pierino Bigoni"
     },
     {
       "collectionDate": "2025-11-01",

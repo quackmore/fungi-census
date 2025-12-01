@@ -1,7 +1,7 @@
 {
   "nomeCompleto": "Ramaria luteoaurantiaca",
   "autore": "Franchi & M. Marchetti 2020",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Gomphales > famiglia: Gomphaceae",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Gomphales > famiglia: Gomphaceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
@@ -11,7 +11,7 @@
       "locality": "Spiazzi, Gromo",
       "localityCoordinates": "45.970802, 9.963785",
       "habitat": "Bordo del bosco misto Abete rosso e latifoglie",
-      "determiner": "da determinare"
+      "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
