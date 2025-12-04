@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-12-01T16:26:25.398Z",
-  "totalSpecies": 416,
+  "generatedAt": "2025-12-04T01:31:59.581Z",
+  "totalSpecies": 417,
   "species": [
     {
       "genus": "Abortiporus",
@@ -218,6 +218,13 @@
       "fullName": "Auriscalpium vulgare",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Auriscalpiaceae",
       "authority": "Gray 1821"
+    },
+    {
+      "genus": "Badhamia",
+      "species": "melanospora",
+      "fullName": "Badhamia melanospora",
+      "lineage": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Physarida > famiglia: Physaridae",
+      "authority": "Speg. 1880"
     },
     {
       "genus": "Baeospora",
