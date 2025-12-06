@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-12-04T01:31:59.581Z",
-  "totalSpecies": 417,
+  "generatedAt": "2025-12-06T01:31:54.772Z",
+  "totalSpecies": 418,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1241,6 +1241,13 @@
       "fullName": "Gomphus clavatus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Gomphales > famiglia: Gomphaceae",
       "authority": "(Pers.) Gray 1821"
+    },
+    {
+      "genus": "Gymnopilus",
+      "species": "penetrans",
+      "fullName": "Gymnopilus penetrans",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hymenogastraceae",
+      "authority": "(Fr.) Murrill 1912"
     },
     {
       "genus": "Gymnopus",

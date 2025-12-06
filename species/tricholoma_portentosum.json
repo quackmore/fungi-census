@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-12-03",
+      "collector": "Fabio Locatelli",
+      "locality": "Fino del monte",
+      "localityCoordinates": "45.890368, 9.992619",
+      "habitat": "Pino silvestre",
+      "determiner": "Fabio Locatelli"
+    },
+    {
       "collectionDate": "2025-11-27",
       "collector": "Fabio Locatelli",
       "locality": "Fino del monte",
@@ -41,7 +49,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "27/10",
-    "raccoltaPiuTarda": "27/11",
+    "raccoltaPiuTarda": "03/12",
     "campioniPerMese": [
       {
         "gen": 0
@@ -77,13 +85,13 @@
         "nov": 3
       },
       {
-        "dic": 0
+        "dic": 1
       }
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }
