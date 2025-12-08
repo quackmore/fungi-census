@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-12-06T01:31:54.772Z",
-  "totalSpecies": 418,
+  "generatedAt": "2025-12-08T01:32:04.060Z",
+  "totalSpecies": 420,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1418,6 +1418,13 @@
     },
     {
       "genus": "Hygrophorus",
+      "species": "lucorum",
+      "fullName": "Hygrophorus lucorum",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "Kalchbr. 1874"
+    },
+    {
+      "genus": "Hygrophorus",
       "species": "pudorinus",
       "fullName": "Hygrophorus pudorinus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
@@ -1464,6 +1471,13 @@
       "fullName": "Hypoxylon fragiforme",
       "lineage": "regno: Fungi > phylum: Ascomycota > classe: Sordariomycetes > ordine: Xylariales > famiglia: Hypoxylaceae",
       "authority": "(Pers.) J. Kickx f. 1835"
+    },
+    {
+      "genus": "Infundibulicybe",
+      "species": "gibba",
+      "fullName": "Infundibulicybe gibba",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "authority": "(Pers.) Harmaja 2003"
     },
     {
       "genus": "Inocybe",

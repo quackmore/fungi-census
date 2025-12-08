@@ -1,9 +1,9 @@
 {
-  "nomeCompleto": "Clitocybe gibba",
-  "autore": "(Pers.) P. Kumm. 1871",
+  "nomeCompleto": "Infundibulicybe gibba",
+  "autore": "(Pers.) Harmaja 2003",
   "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
-  "nomeCorrente": "Infundibulicybe gibba",
-  "autoreCorrente": "(Pers.) Harmaja 2003",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2025-12-07",
@@ -12,6 +12,14 @@
       "localityCoordinates": "45.906793, 9.982849",
       "habitat": "Bosco misto abete e latifoglie",
       "determiner": "Pietro Centenari"
+    },
+    {
+      "collectionDate": "2025-09-17",
+      "collector": "Pierino Bigoni",
+      "locality": "Zenier, Rovetta",
+      "localityCoordinates": "45.898619, 9.984853",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
     },
     {
       "collectionDate": "2025-09-08",
@@ -84,7 +92,7 @@
         "ago": 2
       },
       {
-        "set": 1
+        "set": 2
       },
       {
         "ott": 0
@@ -98,8 +106,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 6,
-    "campioniRaccolti": 6,
+    "totaleCampioni": 7,
+    "campioniRaccolti": 7,
     "campioniExsiccata": 0
   }
 }

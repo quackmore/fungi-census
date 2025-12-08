@@ -6,6 +6,14 @@
   "autoreCorrente": "(Pers.) Harmaja 2003",
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-12-07",
+      "collector": "Pietro Centenari",
+      "locality": "Cascina Bianca, Rovetta",
+      "localityCoordinates": "45.906793, 9.982849",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2025-09-17",
       "collector": "Pierino Bigoni",
       "locality": "Zenier, Rovetta",
@@ -17,7 +25,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "17/09",
-    "raccoltaPiuTarda": "17/09",
+    "raccoltaPiuTarda": "07/12",
     "campioniPerMese": [
       {
         "gen": 0
@@ -53,13 +61,13 @@
         "nov": 0
       },
       {
-        "dic": 0
+        "dic": 1
       }
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
     "campioniExsiccata": 0
   }
 }
