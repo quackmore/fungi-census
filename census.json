@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-12-08T01:32:04.060Z",
-  "totalSpecies": 420,
+  "generatedAt": "2025-12-09T01:31:59.571Z",
+  "totalSpecies": 422,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1473,13 +1473,6 @@
       "authority": "(Pers.) J. Kickx f. 1835"
     },
     {
-      "genus": "Infundibulicybe",
-      "species": "gibba",
-      "fullName": "Infundibulicybe gibba",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
-      "authority": "(Pers.) Harmaja 2003"
-    },
-    {
       "genus": "Inocybe",
       "species": "calamistrata",
       "fullName": "Inocybe calamistrata",
@@ -1542,6 +1535,15 @@
       "fullName": "Kuehneromyces mutabilis",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
       "authority": "(Schaeff.) Singer & A.H. Sm. 1946"
+    },
+    {
+      "genus": "Laccaria",
+      "species": "affinis",
+      "fullName": "Laccaria affinis",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hydnangiaceae",
+      "authority": "(Singer) Bon 1983",
+      "currentName": "Laccaria laccata",
+      "currentAuthority": "(Scop.) Cooke 1884"
     },
     {
       "genus": "Laccaria",
@@ -2157,6 +2159,13 @@
       "authority": "(Fr.) Quél. 1872",
       "currentName": "Panaeolus papilionaceus",
       "currentAuthority": "(Bull.) Quél. 1872"
+    },
+    {
+      "genus": "Panellus",
+      "species": "stipticus",
+      "fullName": "Panellus stipticus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
+      "authority": "(Bull.) P. Karst. 1879"
     },
     {
       "genus": "Panus",
@@ -2945,6 +2954,13 @@
       "fullName": "Trametes versicolor",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
       "authority": "(L.) Lloyd 1920"
+    },
+    {
+      "genus": "Tremella",
+      "species": "mesenterica",
+      "fullName": "Tremella mesenterica",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Tremellomycetes > ordine: Tremellales > famiglia: Tremellaceae",
+      "authority": "Retz. 1769"
     },
     {
       "genus": "Tremiscus",

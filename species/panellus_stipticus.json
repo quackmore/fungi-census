@@ -1,23 +1,23 @@
 {
-  "nomeCompleto": "Clitocybe maxima",
-  "autore": "(P. Gaertn., B. Mey. & Scherb.) P. Kumm. 1871",
-  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
-  "nomeCorrente": "Infundibulicybe gibba",
-  "autoreCorrente": "(Pers.) Harmaja 2003",
+  "nomeCompleto": "Panellus stipticus",
+  "autore": "(Bull.) P. Karst. 1879",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
   "campioniRaccolti": [
     {
-      "collectionDate": "2025-09-17",
+      "collectionDate": "2025-12-07",
       "collector": "Pierino Bigoni",
-      "locality": "Zenier, Rovetta",
-      "localityCoordinates": "45.898619, 9.984853",
-      "habitat": "Bosco misto",
+      "locality": "Valsanguigno",
+      "localityCoordinates": "45.990394, 9.833985",
+      "habitat": "Ceppsia di abete rosso",
       "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "17/09",
-    "raccoltaPiuTarda": "17/09",
+    "raccoltaPiuPrecoce": "07/12",
+    "raccoltaPiuTarda": "07/12",
     "campioniPerMese": [
       {
         "gen": 0
@@ -44,7 +44,7 @@
         "ago": 0
       },
       {
-        "set": 1
+        "set": 0
       },
       {
         "ott": 0
@@ -53,7 +53,7 @@
         "nov": 0
       },
       {
-        "dic": 0
+        "dic": 1
       }
     ]
   },

@@ -1,16 +1,16 @@
 {
-  "nomeCompleto": "Baeospora myosura",
-  "autore": "(Fr.) Singer 1938",
-  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
-  "nomeCorrente": null,
-  "autoreCorrente": null,
+  "nomeCompleto": "Laccaria affinis",
+  "autore": "(Singer) Bon 1983",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hydnangiaceae",
+  "nomeCorrente": "Laccaria laccata",
+  "autoreCorrente": "(Scop.) Cooke 1884",
   "campioniRaccolti": [
     {
       "collectionDate": "2025-12-08",
       "collector": "Pierino Bigoni",
       "locality": "Parco avventura in Pineta, Clusone",
       "localityCoordinates": "45.880916, 9.919919",
-      "habitat": "Pigne di pino silvestre",
+      "habitat": "Bosco misto abete e pino silvestre",
       "determiner": "Pierino Bigoni"
     },
     {
@@ -20,11 +20,27 @@
       "localityCoordinates": "45.882983, 9.918480",
       "habitat": "Bosco misto abete e latifoglie",
       "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-22",
+      "collector": "Antonio Guana",
+      "locality": "Selva d'Agnone, Valgoglio",
+      "localityCoordinates": "45.982797, 9.891481",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-31",
+      "collector": "Angelo Fraschina",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "09/10",
+    "raccoltaPiuPrecoce": "31/08",
     "raccoltaPiuTarda": "08/12",
     "campioniPerMese": [
       {
@@ -49,10 +65,10 @@
         "lug": 0
       },
       {
-        "ago": 0
+        "ago": 1
       },
       {
-        "set": 0
+        "set": 1
       },
       {
         "ott": 1
@@ -66,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }

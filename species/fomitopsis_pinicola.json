@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-12-07",
+      "collector": "Pierino Bigoni",
+      "locality": "Valsanguigno",
+      "localityCoordinates": "45.990394, 9.833985",
+      "habitat": "Su tronchi morti di abete",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-11-14",
       "collector": "Pierino Bigoni",
       "locality": "Rònchèt Oltressenda Alta",
@@ -41,7 +49,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "26/08",
-    "raccoltaPiuTarda": "14/11",
+    "raccoltaPiuTarda": "07/12",
     "campioniPerMese": [
       {
         "gen": 0
@@ -77,13 +85,13 @@
         "nov": 1
       },
       {
-        "dic": 0
+        "dic": 1
       }
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }

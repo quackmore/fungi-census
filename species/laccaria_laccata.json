@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-12-08",
+      "collector": "Pierino Bigoni",
+      "locality": "Parco avventura in Pineta, Clusone",
+      "localityCoordinates": "45.880916, 9.919919",
+      "habitat": "Bosco misto abete e pino silvestre",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-10-09",
       "collector": "Pierino Bigoni",
       "locality": "Pineta della Selva, Clusone",
@@ -33,7 +41,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "31/08",
-    "raccoltaPiuTarda": "09/10",
+    "raccoltaPiuTarda": "08/12",
     "campioniPerMese": [
       {
         "gen": 0
@@ -69,13 +77,13 @@
         "nov": 0
       },
       {
-        "dic": 0
+        "dic": 1
       }
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }
