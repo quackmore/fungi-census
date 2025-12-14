@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-12-10T08:39:40.320Z",
-  "totalSpecies": 422,
+  "generatedAt": "2025-12-14T01:32:10.512Z",
+  "totalSpecies": 423,
   "species": [
     {
       "genus": "Abortiporus",
@@ -2134,6 +2134,13 @@
       "fullName": "Mycena zephirus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
       "authority": "(Fr.) P. Kumm. 1871"
+    },
+    {
+      "genus": "Omphalina",
+      "species": "pyxidata",
+      "fullName": "Omphalina pyxidata",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "authority": "(Bull.) Quél. 1886"
     },
     {
       "genus": "Oudemansiella",
