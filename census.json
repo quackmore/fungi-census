@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-12-18T01:32:06.503Z",
-  "totalSpecies": 423,
+  "generatedAt": "2025-12-22T15:34:33.429Z",
+  "totalSpecies": 425,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1530,6 +1530,13 @@
       "currentAuthority": "(Bull.) Matheny & Esteve-Rav. 2019"
     },
     {
+      "genus": "Ischnoderma",
+      "species": "benzoinum",
+      "fullName": "Ischnoderma benzoinum",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Ischnodermataceae",
+      "authority": "(Wahlenb.) P. Karst. 1881"
+    },
+    {
       "genus": "Kuehneromyces",
       "species": "mutabilis",
       "fullName": "Kuehneromyces mutabilis",
@@ -2854,6 +2861,13 @@
       "fullName": "Spathularia flavida",
       "lineage": "regno: Fungi > phylum: Ascomycota > classe: Leotiomycetes > ordine: Rhytismatales > famiglia: Cudoniaceae",
       "authority": "Pers. 1794"
+    },
+    {
+      "genus": "Spinellus",
+      "species": "fusiger",
+      "fullName": "Spinellus fusiger",
+      "lineage": "regno: Fungi > phylum: Mucoromycota > classe: Mucoromycetes > ordine: Mucorales > famiglia: Phycomycetaceae",
+      "authority": "(Link) Tiegh. 1875"
     },
     {
       "genus": "Strobilomyces",

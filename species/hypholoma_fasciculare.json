@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-12-22",
+      "collector": "Fabio Locatelli",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.8733182N, 9.9098417E",
+      "habitat": "Ceppaia",
+      "determiner": "Fabio Locatelli"
+    },
+    {
       "collectionDate": "2025-11-01",
       "collector": "Pierino Bigoni",
       "locality": "Parco avventura in Pineta, Clusone",
@@ -81,7 +89,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "25/05",
-    "raccoltaPiuTarda": "01/11",
+    "raccoltaPiuTarda": "22/12",
     "campioniPerMese": [
       {
         "gen": 0
@@ -117,13 +125,13 @@
         "nov": 1
       },
       {
-        "dic": 0
+        "dic": 1
       }
     ]
   },
   "statistiche": {
-    "totaleCampioni": 9,
-    "campioniRaccolti": 9,
+    "totaleCampioni": 10,
+    "campioniRaccolti": 10,
     "campioniExsiccata": 0
   }
 }

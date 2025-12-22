@@ -1,7 +1,7 @@
 {
-  "nomeCompleto": "Hypholoma sublateritium",
-  "autore": "(Fr.) Quél. 1872",
-  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+  "nomeCompleto": "Ischnoderma benzoinum",
+  "autore": "(Wahlenb.) P. Karst. 1881",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Ischnodermataceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
@@ -12,19 +12,11 @@
       "localityCoordinates": "45.8733182N, 9.9098417E",
       "habitat": "Ceppaia",
       "determiner": "Fabio Locatelli"
-    },
-    {
-      "collectionDate": "2025-10-08",
-      "collector": "Fabio Locatelli",
-      "locality": "Prat del sul, Clusone",
-      "localityCoordinates": "45.867941, 9.932321",
-      "habitat": "Faggio",
-      "determiner": "Fabio Locatelli"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "08/10",
+    "raccoltaPiuPrecoce": "22/12",
     "raccoltaPiuTarda": "22/12",
     "campioniPerMese": [
       {
@@ -55,7 +47,7 @@
         "set": 0
       },
       {
-        "ott": 1
+        "ott": 0
       },
       {
         "nov": 0
@@ -66,8 +58,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
     "campioniExsiccata": 0
   }
 }
