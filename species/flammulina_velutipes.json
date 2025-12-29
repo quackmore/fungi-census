@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2025-12-28",
+      "collector": "Pierino Bigoni",
+      "locality": "Bruseda , Piario",
+      "localityCoordinates": "",
+      "habitat": "Ceppaie marcescenti",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-12-22",
       "collector": "Fabio Locatelli",
       "locality": "Pineta della Selva, Clusone",
@@ -41,7 +49,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "01/11",
-    "raccoltaPiuTarda": "22/12",
+    "raccoltaPiuTarda": "28/12",
     "campioniPerMese": [
       {
         "gen": 0
@@ -77,13 +85,13 @@
         "nov": 3
       },
       {
-        "dic": 1
+        "dic": 2
       }
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }

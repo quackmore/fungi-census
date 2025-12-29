@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-12-22T16:36:15.324Z",
-  "totalSpecies": 425,
+  "generatedAt": "2025-12-29T01:32:33.502Z",
+  "totalSpecies": 427,
   "species": [
     {
       "genus": "Abortiporus",
@@ -2877,6 +2877,13 @@
       "authority": "(Scop.) Berk. 1851"
     },
     {
+      "genus": "Strobilurus",
+      "species": "esculentus",
+      "fullName": "Strobilurus esculentus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
+      "authority": "(Wulfen) Singer 1962"
+    },
+    {
       "genus": "Stropharia",
       "species": "aeruginosa",
       "fullName": "Stropharia aeruginosa",
@@ -3112,6 +3119,15 @@
       "fullName": "Tricholomopsis rutilans",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
       "authority": "(Schaeff.) Singer 1939"
+    },
+    {
+      "genus": "Tubaria",
+      "species": "hiemalis",
+      "fullName": "Tubaria hiemalis",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tubariaceae",
+      "authority": "Romagn. ex Bon 1973",
+      "currentName": "Tubaria furfuracea",
+      "currentAuthority": "(Pers.) Gillet 1876"
     },
     {
       "genus": "Tylopilus",
