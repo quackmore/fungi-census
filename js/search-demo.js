@@ -213,6 +213,7 @@ function handleSpeciesClick(genus, species) {
     // }, '*');
     // Navigate to species detail page with parameters
     window.location.href = `species-detail-demo.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}`;
+    resetFreeSearch();
 }
 
 // Switch between tabs

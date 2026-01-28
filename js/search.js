@@ -211,6 +211,7 @@ function handleSpeciesClick(genus, species) {
         type: 'navigate',
         page: `fungi-census/species-detail.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}`
     }, '*');
+    resetFreeSearch();
     // Navigate to species detail page with parameters
     // window.location.href = `species-detail.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}`;
 }
