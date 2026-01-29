@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-01-26",
+      "collector": "Pietro Centenari",
+      "locality": "Sent. Alto Serio (Verso i monti Parè e Blum - strada), Fino del Monte",
+      "localityCoordinates": "45.9016, 9.9879",
+      "habitat": "Ceppaie e radici marcescenti",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2025-12-28",
       "collector": "Pierino Bigoni",
       "locality": "Bruseda, Piario",
@@ -49,10 +57,10 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "01/11",
-    "raccoltaPiuTarda": "28/12",
+    "raccoltaPiuTarda": "26/01",
     "campioniPerMese": [
       {
-        "gen": 0
+        "gen": 1
       },
       {
         "feb": 0
@@ -90,8 +98,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 5,
-    "campioniRaccolti": 5,
+    "totaleCampioni": 6,
+    "campioniRaccolti": 6,
     "campioniExsiccata": 0
   }
 }
