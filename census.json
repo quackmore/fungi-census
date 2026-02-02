@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-01-29T01:31:56.441Z",
-  "totalSpecies": 427,
+  "generatedAt": "2026-02-02T01:33:20.132Z",
+  "totalSpecies": 430,
   "species": [
     {
       "genus": "Abortiporus",
@@ -480,6 +480,13 @@
       "fullName": "Chrysomyxa rhododendri",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Pucciniomycetes > ordine: Pucciniales > famiglia: Coleosporiaceae",
       "authority": "(DC.) de Bary 1879"
+    },
+    {
+      "genus": "Ciboria",
+      "species": "caucus",
+      "fullName": "Ciboria caucus",
+      "lineage": null,
+      "authority": "undefined undefined"
     },
     {
       "genus": "Clavariadelphus",
@@ -1306,6 +1313,20 @@
       "authority": "(Nannf.) Harmaja 1974",
       "currentName": "Wynnella silvicola",
       "currentAuthority": "Nannf. 1966"
+    },
+    {
+      "genus": "Hemitrichia",
+      "species": "clavata",
+      "fullName": "Hemitrichia clavata",
+      "lineage": null,
+      "authority": "undefined undefined"
+    },
+    {
+      "genus": "Hemitrichia",
+      "species": "serpula",
+      "fullName": "Hemitrichia serpula",
+      "lineage": null,
+      "authority": "undefined undefined"
     },
     {
       "genus": "Heterobasidion",

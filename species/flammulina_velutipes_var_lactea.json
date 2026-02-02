@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-02-01",
+      "collector": "Pietro Centenari",
+      "locality": "Sent. Alto Serio (Verso i monti Parè e Blum - strada), Fino del Monte, Bergamo",
+      "localityCoordinates": "45.903911, 9.987838",
+      "habitat": "Ceppaie marcescenti",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2025-11-13",
       "collector": "Angelo Ballabeni",
       "locality": "Blum, Rovetta",
@@ -17,13 +25,13 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "13/11",
-    "raccoltaPiuTarda": "13/11",
+    "raccoltaPiuTarda": "01/02",
     "campioniPerMese": [
       {
         "gen": 0
       },
       {
-        "feb": 0
+        "feb": 1
       },
       {
         "mar": 0
@@ -58,8 +66,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
     "campioniExsiccata": 0
   }
 }
