@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-02T09:03:12.102Z",
+  "generatedAt": "2026-02-02T09:06:10.555Z",
   "totalSpecies": 430,
   "species": [
     {
@@ -1326,7 +1326,7 @@
       "species": "serpula",
       "fullName": "Hemitrichia serpula",
       "lineage": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Trichiales > famiglia: Trichiaceae",
-      "authority": "(Scop.) Rostaf. 1873 1873"
+      "authority": "(Scop.) Rostaf. 1873"
     },
     {
       "genus": "Heterobasidion",
