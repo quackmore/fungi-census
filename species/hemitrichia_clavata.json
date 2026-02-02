@@ -1,15 +1,15 @@
 {
   "nomeCompleto": "Hemitrichia clavata",
-  "autore": "undefined undefined",
-  "filogenesi": null,
+  "autore": "(Pers.) Rostaf. 1873",
+  "filogenesi": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Trichiales > famiglia: Trichiaceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2026-01-30",
       "collector": "Pierino Bigoni",
-      "locality": "Verso il Lò Oltressenda Alta",
-      "localityCoordinates": "",
+      "locality": "Verso il Lò, Oltressenda Alta",
+      "localityCoordinates": "45.926879, 9.951403",
       "habitat": "Su tronco morto di aghifoglie",
       "determiner": "Pierino Bigoni"
     }

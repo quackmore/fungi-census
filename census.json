@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-02T08:34:46.773Z",
-  "totalSpecies": 427,
+  "generatedAt": "2026-02-02T09:03:12.102Z",
+  "totalSpecies": 430,
   "species": [
     {
       "genus": "Abortiporus",
@@ -480,6 +480,13 @@
       "fullName": "Chrysomyxa rhododendri",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Pucciniomycetes > ordine: Pucciniales > famiglia: Coleosporiaceae",
       "authority": "(DC.) de Bary 1879"
+    },
+    {
+      "genus": "Ciboria",
+      "species": "caucus",
+      "fullName": "Ciboria caucus",
+      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Leotiomycetes > ordine: Helotiales > famiglia: Sclerotiniaceae",
+      "authority": "(Rebent.) Fuckel 1870"
     },
     {
       "genus": "Clavariadelphus",
@@ -1306,6 +1313,20 @@
       "authority": "(Nannf.) Harmaja 1974",
       "currentName": "Wynnella silvicola",
       "currentAuthority": "Nannf. 1966"
+    },
+    {
+      "genus": "Hemitrichia",
+      "species": "clavata",
+      "fullName": "Hemitrichia clavata",
+      "lineage": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Trichiales > famiglia: Trichiaceae",
+      "authority": "(Pers.) Rostaf. 1873"
+    },
+    {
+      "genus": "Hemitrichia",
+      "species": "serpula",
+      "fullName": "Hemitrichia serpula",
+      "lineage": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Trichiales > famiglia: Trichiaceae",
+      "authority": "(Scop.) Rostaf. 1873 1873"
     },
     {
       "genus": "Heterobasidion",
