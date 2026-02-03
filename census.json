@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-02T09:06:10.555Z",
-  "totalSpecies": 430,
+  "generatedAt": "2026-02-03T01:32:09.215Z",
+  "totalSpecies": 431,
   "species": [
     {
       "genus": "Abortiporus",
@@ -2889,6 +2889,13 @@
       "fullName": "Spinellus fusiger",
       "lineage": "regno: Fungi > phylum: Mucoromycota > classe: Mucoromycetes > ordine: Mucorales > famiglia: Phycomycetaceae",
       "authority": "(Link) Tiegh. 1875"
+    },
+    {
+      "genus": "Stereum",
+      "species": "hirsutum",
+      "fullName": "Stereum hirsutum",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Stereaceae",
+      "authority": "(Willd.) Pers. 1800"
     },
     {
       "genus": "Strobilomyces",
